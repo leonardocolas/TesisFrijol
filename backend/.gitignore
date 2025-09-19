@@ -1,0 +1,24 @@
+# Python / Django
+.venv/
+__pycache__/
+*.pyc
+db.sqlite3
+*.env
+
+# Datos y modelos
+data/
+models/
+
+# Logs
+*.log
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea/
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
