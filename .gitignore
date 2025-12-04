@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.venv/
+labelimg_env/
+backend/db.sqlite3
+
+# Node
+node_modules/
+
+# Data & models
+/data/
+/runs/
+yolov8n.pt
+
+# IDE / OS
+.vscode/
+.DS_Store
