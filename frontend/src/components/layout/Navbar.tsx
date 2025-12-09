@@ -15,7 +15,7 @@ const Navbar = () => {
       subMenu: [
         { name: "Información General", to: "/beans" },
         { name: "Enfermedades y Plagas", to: "/beans/plagas" },
-        { name: "Modelo de Detección", to: "/beans/deteccion" },
+        { name: "Modelo de Detección de Enfermedades", to: "/beans/deteccion" },
       ]
     },
     { 
