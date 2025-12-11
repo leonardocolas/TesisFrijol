@@ -96,10 +96,6 @@ const ImageUploader: React.FC<ImageUploaderProps> = ({ onImageChange, initialIma
   const buttonClasses = "mt-4 px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors duration-200 shadow-md";
   const clearButtonClasses = "absolute top-2 right-2 p-1 bg-white/70 hover:bg-white rounded-full shadow-lg text-red-600 z-10 transition-opacity opacity-100 hover:opacity-80";
   
-  // La siguiente línea de input permite la cámara y la galería en dispositivos móviles.
-  // 'accept="image/*"' filtra solo imágenes.
-  // 'capture="environment"' sugiere usar la cámara trasera si está disponible.
-  // Para iOS, 'capture' puede funcionar para abrir la cámara/galería.
 
   return (
     <div className="w-full max-w-lg mx-auto p-4 bg-white shadow-lg rounded-xl">
