@@ -57,7 +57,6 @@ const CardsList: React.FC = () => {
               title={card.title}
               description={card.description}
               link={card.link}
-              backgroundColor={card.backgroundColor}
             />
           </div>
         ))}

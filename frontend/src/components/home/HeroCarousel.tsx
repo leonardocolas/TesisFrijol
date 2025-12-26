@@ -45,7 +45,7 @@ const HeroCarousel: React.FC = () => {
 
   return (
     
-    <div className="relative w-full h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden"> 
+    <div className=" w-full h-[400px] md:h-[500px] lg:h-[600px] overflow-hidden"> 
       <AnimatePresence initial={false}>
         <motion.div
           key={currentIndex}

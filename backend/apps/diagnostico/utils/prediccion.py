@@ -50,10 +50,6 @@ def _import_yolo_class():
         from ultralytics import YOLO
         return YOLO
     except Exception:
-        try:
-            from ultralytics.yolo.engine.model import YOLO as YOLO_CLASS
-            return YOLO_CLASS
-        except Exception:
             return None
 
 
@@ -117,9 +113,8 @@ def recortar_region(img, box):
     return img[max(0,y1):min(h,y2), max(0,x1):min(w,x2)]
 
 
-
 # ============================================================
-# 7. CLASIFICACIÓN INDIVIDUAL
+# 7. CLASIFICACIÓN INDIVIDUAL 
 # ============================================================
 
 def classify_leaf(img):
@@ -128,22 +123,34 @@ def classify_leaf(img):
     global _tflite_interpreter, _tflite_input_details, _tflite_output_details
 
     if img is None or img.size == 0:
-        return {"prob_sana": 0, "prob_mosaico": 0, "clase": "sana"}
+        return {
+            "prob_sana": 0.0,
+            "prob_mosaico": 0.0,
+            "clase": "sana",
+        }
 
     input_data = preprocess_for_classification(img)
-    _tflite_interpreter.set_tensor(_tflite_input_details[0]["index"], input_data)
+    _tflite_interpreter.set_tensor(
+        _tflite_input_details[0]["index"], input_data
+    )
     _tflite_interpreter.invoke()
-    output = _tflite_interpreter.get_tensor(_tflite_output_details[0]["index"])[0]
 
-    prob_sano = float(output[0])
-    prob_mosaico = float(output[1]) if len(output) > 1 else 1 - prob_sano
+    output = _tflite_interpreter.get_tensor(
+        _tflite_output_details[0]["index"]
+    )[0]
 
-    clase = "sana" if prob_sano >= prob_mosaico else "mosaico_dorado"
+    # ⚠️ ORDEN REAL DEL MODELO (alfabético)
+    # 0 → mosaico_dorado
+    # 1 → sana
+    prob_mosaico = float(output[0])
+    prob_sana = float(output[1]) if len(output) > 1 else 1.0 - prob_mosaico
+
+    clase = "sana" if prob_sana >= prob_mosaico else "mosaico_dorado"
 
     return {
-        "prob_sana": prob_sano,
+        "prob_sana": prob_sana,
         "prob_mosaico": prob_mosaico,
-        "clase": clase
+        "clase": clase,
     }
 
 

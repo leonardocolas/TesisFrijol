@@ -6,62 +6,96 @@ interface CardProps {
   title: string;
   description: string;
   link: string;
-  backgroundColor: string;
 }
 
-const Card: React.FC<CardProps> = ({ image, title, description, link, backgroundColor }) => {
+const Card: React.FC<CardProps> = ({ image, title, description, link }) => {
   return (
     <div
       className={`
-        w-[280px] flex-shrink-0 
-        bg-white rounded-2xl overflow-hidden 
-        shadow-xl 
-        transition-all duration-500 ease-in-out 
+        w-[320px] flex-shrink-0 
+        bg-white rounded-3xl overflow-hidden 
+        shadow-lg 
+        transition-all duration-400 ease-out
         hover:shadow-2xl 
-        hover:translate-y-[-6px] 
+        hover:translate-y-[-8px]
+        hover:scale-[1.02]
         group
+        border border-gray-100
       `}
     >
+      {/* Image Container */}
       <div 
         className={`
-          h-[200px] 
-          ${backgroundColor} 
-          flex items-center justify-center p-6 
-          rounded-t-2xl 
-          relative
+          h-[220px] 
+          relative 
+          overflow-hidden
+          bg-gradient-to-br from-gray-50 to-gray-100
         `}
       >
         <Link to={link} className="block w-full h-full">
+          <div className="absolute inset-0 bg-gradient-to-t from-black/10 via-transparent to-transparent z-10" />
           <img
             src={image}
             alt={title}
-            className="w-full h-full object-contain drop-shadow-lg"
+            className="
+              w-full h-full 
+              object-cover 
+              transition-all duration-500 ease-out
+              group-hover:scale-110
+            "
           />
         </Link>
       </div>
 
-      <div className="p-8 bg-white flex flex-col items-center text-center">
-        <h3 className="text-2xl font-bold text-gray-800 mb-4 tracking-wider">
-          {title}
-        </h3>
+      {/* Content Area */}
+      <div className="p-8 bg-white">
+        {/* Centered Title */}
+        <div className="flex justify-center mb-6">
+          <h3 className="text-2xl font-bold text-gray-800 tracking-tight text-center">
+            {title}
+          </h3>
+        </div>
 
-        <p className="text-gray-600 text-sm mb-6 leading-relaxed text-justify px-2">
+        <p className="text-gray-600 text-base mb-8 leading-relaxed line-clamp-3 text-center">
           {description}
         </p>
 
-        <Link 
-          to={link}
-          className="
-            inline-block px-8 py-3 
-            bg-orange-700 text-white font-semibold 
-            rounded-full text-sm 
-            shadow-md 
-            transition-all duration-300 ease-in-out 
-            hover:bg-orange-800 hover:shadow-lg
-          "
-        >
-          Ver Detalles
-        </Link>
+        {/* Centered Button */}
+        <div className="flex justify-center">
+          <Link 
+            to={link}
+            className="
+              inline-flex items-center justify-center
+              px-8 py-3
+              bg-gradient-to-r from-green-500 to-green-600 
+              text-white 
+              font-semibold text-sm
+              rounded-full
+              shadow-lg
+              transition-all duration-300
+              hover:from-orange-600 hover:to-green-700
+              hover:shadow-xl
+              hover:scale-105
+              gap-2
+              group/button
+            "
+          >
+            <span>Ver Detalles</span>
+            <svg 
+              className="w-4 h-4 transition-transform duration-300 group-hover/button:translate-x-1" 
+              fill="none" 
+              viewBox="0 0 24 24" 
+              stroke="currentColor"
+            >
+              <path 
+                strokeLinecap="round" 
+                strokeLinejoin="round" 
+                strokeWidth={2.5} 
+                d="M14 5l7 7m0 0l-7 7m7-7H3" 
+              />
+            </svg>
+          </Link>
+        </div>
       </div>
     </div>
   );

@@ -12,6 +12,7 @@ const BeansPlagas = lazy(() => import("../pages/BeansPlagas"));
 const BeansDeteccion = lazy(() => import("../pages/BeansDeteccion"));
 const CornsPlagas = lazy(() => import("../pages/CornsPlagas"));
 const RicePlagas = lazy(() => import("../pages/RicePlagas"));
+const LandingPageCentroGranos = lazy(() =>import("../pages/LandingPageCentroGranos"));
 
 export function AppRouter() {
   return (
@@ -25,6 +26,8 @@ export function AppRouter() {
       <Routes>
         <Route element={<MainLayout />}>
           <Route index element={<Home />} />
+          
+          <Route path="centro-granos" element={<LandingPageCentroGranos />} />
 
           <Route path="beans" element={<Beans />} />
           <Route path="beans/plagas" element={<BeansPlagas />} />
