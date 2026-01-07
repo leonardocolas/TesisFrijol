@@ -8,21 +8,21 @@ import { Sprout } from "lucide-react";
 const cardsData = [
   {
     image: imgbeans,
-    title: "Beans",
+    title: "Frijol",
     description: "Lease conice aoulience rauliurs cras of quase cuts this socliftae saddod crotes Uo denisis idrdhuled",
     link: "/beans",
     backgroundColor: "bg-green-500",
   },
   {
     image: imgrice,
-    title: "Rice",
+    title: "Arroz",
     description: "Lease conies aoulience ogreuture crat of grese corr eolile sulgnes sadd comes Ue criule nolicalated",
     link: "/rice",
     backgroundColor: "bg-lime-500",
   },
   {
     image: imgcorns,
-    title: "Corn",
+    title: "Maíz",
     description: "Lease coulsa aouliconic ailicutive center grops sots dna socinies soire thormus Ua devinis iilnctlued",
     link: "/corn",
     backgroundColor: "bg-lime-400",
