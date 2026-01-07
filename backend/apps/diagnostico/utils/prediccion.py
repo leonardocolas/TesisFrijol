@@ -27,7 +27,7 @@ PREFERRED_YOLO_PATHS = [
 ]
 
 PREFERRED_TFLITE_PATHS = [
-    os.path.join(PROJECT_ROOT, "notebooks", "models", "classification", "modelo_clasificador.tflite"),
+    os.path.join(PROJECT_ROOT, "models", "classification", "modelo_clasificador.tflite"),
 ]
 
 
