@@ -1,21 +1,4 @@
-﻿# Informe KDD Adaptado al Proyecto Tesis Frijol
-
-## 1. Objetivo del informe
-Este documento extrapola la estructura metodologica del archivo `01_preprocesamiento.ipynb` (KDD clasico: Seleccion, Preprocesamiento, Transformacion, Modelado, Evaluacion) al flujo real del proyecto `TesisFrijol`, donde la logica esta distribuida en notebooks, scripts, artefactos y backend.
-
-## 2. Referente base (archivo externo)
-En `01_preprocesamiento.ipynb` el proceso se organiza en 5 fases KDD:
-1. Seleccion y carga de datos.
-2. Preprocesamiento.
-3. Transformacion.
-4. Mineria de datos (modelado).
-5. Evaluacion estadistica y conclusiones.
-
-Ese mismo patron se aplica aqui, pero con un pipeline multimodulo (deteccion + clasificacion + despliegue).
-
-## 3. KDD aplicado en Tesis Frijol
-
-### Fase 1. Seleccion de datos
+﻿### Fase 1. Seleccion de datos
 Objetivo: definir las fuentes de datos utiles para deteccion de hojas y clasificacion sanitaria.
 
 Archivos y evidencias:
