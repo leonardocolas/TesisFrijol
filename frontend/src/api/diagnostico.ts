@@ -1,12 +1,15 @@
 export interface HojaResultado {
   bounding_box: number[];
   prob_sana: number;
+  prob_sano?: number;
   prob_mosaico_dorado: number;
   clase: string;
+  clase_canonica?: string;
 }
 
 export interface DiagnosticoResponse {
   diagnostico_general: string;
+  diagnostico_general_canonico?: string | null;
   cantidad_hojas: number;
   detalles_por_hoja: HojaResultado[];
 }

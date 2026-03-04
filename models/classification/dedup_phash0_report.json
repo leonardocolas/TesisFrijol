@@ -1,0 +1,1239 @@
+{
+  "strategy": "perceptual hash (pHash) distance 0 across splits; keep train > val > test",
+  "reconstructed_after_timeout": true,
+  "moved_count": 176,
+  "entries": [
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\mosaico_dorado\\mosaic_aug_00834.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\mosaico_dorado\\mosaic_aug_00834.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\mosaic_aug_00832.png",
+      "phash64": "16895418539238647081"
+    },
+    {
+      "reason": "phash0_collision_with_val",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\mosaico_dorado\\Yellow Mosaic 121.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\mosaico_dorado\\Yellow Mosaic 121.png",
+      "reference": "data\\processed\\classification_split\\val\\mosaico_dorado\\Yellow Mosaic 5.png",
+      "phash64": "16874589648923863356"
+    },
+    {
+      "reason": "phash0_collision_with_val",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\mosaico_dorado\\Yellow Mosaic 129.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\mosaico_dorado\\Yellow Mosaic 129.png",
+      "reference": "data\\processed\\classification_split\\val\\mosaico_dorado\\Yellow Mosaic 202.png",
+      "phash64": "12555988348323651865"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\mosaico_dorado\\Yellow Mosaic 153.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\mosaico_dorado\\Yellow Mosaic 153.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 13.png",
+      "phash64": "12555918001054302616"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\mosaico_dorado\\Yellow Mosaic 192.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\mosaico_dorado\\Yellow Mosaic 192.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 248.png",
+      "phash64": "16759749605910339900"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\mosaico_dorado\\Yellow Mosaic 200.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\mosaico_dorado\\Yellow Mosaic 200.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 188.png",
+      "phash64": "12542477618177517886"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\mosaico_dorado\\Yellow Mosaic 229.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\mosaico_dorado\\Yellow Mosaic 229.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 40.png",
+      "phash64": "12542477618177521977"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\mosaico_dorado\\Yellow Mosaic 236.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\mosaico_dorado\\Yellow Mosaic 236.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 188.png",
+      "phash64": "12542477618177517886"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\mosaico_dorado\\Yellow Mosaic 38.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\mosaico_dorado\\Yellow Mosaic 38.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 59.png",
+      "phash64": "16912588189878674097"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\mosaico_dorado\\Yellow Mosaic 76.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\mosaico_dorado\\Yellow Mosaic 76.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 193.png",
+      "phash64": "13792432969276443067"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\mosaico_dorado\\Yellow Mosaic 85.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\mosaico_dorado\\Yellow Mosaic 85.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 87.png",
+      "phash64": "13422646333236591859"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 1019.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 1019.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1157.png",
+      "phash64": "16854605162038503278"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 1025.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 1025.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 17.png",
+      "phash64": "12300972439936666541"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 1038.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 1038.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 130.png",
+      "phash64": "13802618589732220599"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 1051.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 1051.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1056.png",
+      "phash64": "13771867991765539523"
+    },
+    {
+      "reason": "phash0_collision_with_val",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 1061.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 1061.png",
+      "reference": "data\\processed\\classification_split\\val\\sano\\Good Leaf 395.png",
+      "phash64": "13343536583791162164"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 1095.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 1095.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 257.png",
+      "phash64": "18043884179912145554"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 1097.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 1097.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 22.png",
+      "phash64": "16930403205190196592"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 1109.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 1109.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 569.png",
+      "phash64": "18330355535952988882"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 1113.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 1113.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 17.png",
+      "phash64": "12300972439936666541"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 1125.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 1125.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 871.png",
+      "phash64": "16891460167803924531"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 1130.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 1130.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1029.png",
+      "phash64": "12581866522468890919"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 115.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 115.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 606.png",
+      "phash64": "18425827045088595949"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 1156.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 1156.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 823.png",
+      "phash64": "12984937440938308147"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 129.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 129.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 314.png",
+      "phash64": "13785400501339164619"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 14.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 14.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1157.png",
+      "phash64": "16854605162038503278"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 159.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 159.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 394.png",
+      "phash64": "16917091539160666085"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 160.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 160.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 865.png",
+      "phash64": "17230426792817801519"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 163.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 163.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 31.png",
+      "phash64": "18320223070172441797"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 198.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 198.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1029.png",
+      "phash64": "12581866522468890919"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 229.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 229.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 570.png",
+      "phash64": "18328454971182643662"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 244.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 244.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 100.png",
+      "phash64": "12652529362159362190"
+    },
+    {
+      "reason": "phash0_collision_with_val",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 25.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 25.png",
+      "reference": "data\\processed\\classification_split\\val\\sano\\Good Leaf 1073.png",
+      "phash64": "13803181500829744286"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 267.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 267.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 663.png",
+      "phash64": "12270853426655862583"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 269.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 269.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 162.png",
+      "phash64": "13461189693902188090"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 273.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 273.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 10.png",
+      "phash64": "13460838878960643186"
+    },
+    {
+      "reason": "phash0_collision_with_val",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 281.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 281.png",
+      "reference": "data\\processed\\classification_split\\val\\sano\\Good Leaf 498.png",
+      "phash64": "18332114556061776530"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 293.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 293.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 376.png",
+      "phash64": "13707990085450952133"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 296.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 296.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 833.png",
+      "phash64": "18329826670861994738"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 305.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 305.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1065.png",
+      "phash64": "18365538783973439686"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 320.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 320.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 742.png",
+      "phash64": "12300972438862924733"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 322.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 322.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 977.png",
+      "phash64": "13800032557375229749"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 324.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 324.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 607.png",
+      "phash64": "13771955918134798607"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 335.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 335.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1092.png",
+      "phash64": "13830695330031365300"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 345.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 345.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 534.png",
+      "phash64": "13830765628094363090"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 356.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 356.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 854.png",
+      "phash64": "18059932988783360161"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 381.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 381.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 17.png",
+      "phash64": "12300972439936666541"
+    },
+    {
+      "reason": "phash0_collision_with_val",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 384.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 384.png",
+      "reference": "data\\processed\\classification_split\\val\\sano\\Good Leaf 15.png",
+      "phash64": "13817840172587754970"
+    },
+    {
+      "reason": "phash0_collision_with_val",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 386.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 386.png",
+      "reference": "data\\processed\\classification_split\\val\\sano\\Good Leaf 63.png",
+      "phash64": "18414234239415561911"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 389.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 389.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 201.png",
+      "phash64": "13783988728442728395"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 396.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 396.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1131.png",
+      "phash64": "13833017395045673952"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 427.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 427.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 228.png",
+      "phash64": "12652531560914120846"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 43.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 43.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 406.png",
+      "phash64": "17105184402420818223"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 432.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 432.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1141.png",
+      "phash64": "13819172499532565306"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 447.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 447.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 176.png",
+      "phash64": "13460838881107995762"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 448.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 448.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 180.png",
+      "phash64": "13818100003093376801"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 480.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 480.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 189.png",
+      "phash64": "13496938028623957211"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 482.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 482.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 202.png",
+      "phash64": "13802618589732351159"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 488.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 488.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 406.png",
+      "phash64": "17105184402420818223"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 489.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 489.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 17.png",
+      "phash64": "12300972439936666541"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 490.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 490.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1102.png",
+      "phash64": "13803182079843843135"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 506.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 506.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 16.png",
+      "phash64": "17264215380586750094"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 508.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 508.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 597.png",
+      "phash64": "13814193803219341293"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 517.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 517.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 623.png",
+      "phash64": "12677792448326168016"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 523.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 523.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1091.png",
+      "phash64": "13817202329243348788"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 535.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 535.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 838.png",
+      "phash64": "16895981625821520242"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 537.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 537.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1100.png",
+      "phash64": "16874308099791092286"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 545.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 545.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 272.png",
+      "phash64": "12545311102524772487"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 587.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 587.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 308.png",
+      "phash64": "16974846818183035617"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 6.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 6.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 17.png",
+      "phash64": "12300972439936666541"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 630.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 630.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 58.png",
+      "phash64": "13776740284086169502"
+    },
+    {
+      "reason": "phash0_collision_with_val",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 648.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 648.png",
+      "reference": "data\\processed\\classification_split\\val\\sano\\Good Leaf 1073.png",
+      "phash64": "13803181500829744286"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 673.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 673.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 921.png",
+      "phash64": "12597628205365025764"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 701.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 701.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 622.png",
+      "phash64": "18059932990657034401"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 709.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 709.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 307.png",
+      "phash64": "13767452335683981257"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 711.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 711.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 22.png",
+      "phash64": "16930403205190196592"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 744.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 744.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 58.png",
+      "phash64": "13776740284086169502"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 749.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 749.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 122.png",
+      "phash64": "17193214925584427324"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 764.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 764.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1021.png",
+      "phash64": "13827392396773047745"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 768.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 768.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 243.png",
+      "phash64": "13754210000714874304"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 776.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 776.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 751.png",
+      "phash64": "13807122115274816950"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 839.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 839.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1131.png",
+      "phash64": "13833017395045673952"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 858.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 858.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 169.png",
+      "phash64": "13524820247637167332"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 872.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 872.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 838.png",
+      "phash64": "16895981625821520242"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 890.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 890.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 827.png",
+      "phash64": "13801162855264840501"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 90.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 90.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 286.png",
+      "phash64": "12306882223674564407"
+    },
+    {
+      "reason": "phash0_collision_with_val",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 941.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 941.png",
+      "reference": "data\\processed\\classification_split\\val\\sano\\Good Leaf 618.png",
+      "phash64": "13802618589463785399"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 950.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 950.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 58.png",
+      "phash64": "13776740284086169502"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 953.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 953.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 314.png",
+      "phash64": "13785400501339164619"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 981.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 981.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 124.png",
+      "phash64": "13424880521550916713"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 983.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 983.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 282.png",
+      "phash64": "16925899639662517712"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 992.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 992.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1035.png",
+      "phash64": "13031943070024741023"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 995.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 995.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 527.png",
+      "phash64": "12616489047591172397"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\test\\sano\\Good Leaf 999.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\test\\sano\\Good Leaf 999.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 289.png",
+      "phash64": "13826263196706354626"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\mosaico_dorado\\Yellow Mosaic 110.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\mosaico_dorado\\Yellow Mosaic 110.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 79.png",
+      "phash64": "12555988365503258905"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\mosaico_dorado\\Yellow Mosaic 12.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\mosaico_dorado\\Yellow Mosaic 12.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 239.png",
+      "phash64": "12628024017657164089"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\mosaico_dorado\\Yellow Mosaic 125.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\mosaico_dorado\\Yellow Mosaic 125.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 92.png",
+      "phash64": "12546963624536979774"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\mosaico_dorado\\Yellow Mosaic 146.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\mosaico_dorado\\Yellow Mosaic 146.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 120.png",
+      "phash64": "12689111747082727909"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\mosaico_dorado\\Yellow Mosaic 187.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\mosaico_dorado\\Yellow Mosaic 187.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 120.png",
+      "phash64": "12689111747082727909"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\mosaico_dorado\\Yellow Mosaic 198.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\mosaico_dorado\\Yellow Mosaic 198.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 134.png",
+      "phash64": "18108624137195566700"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\mosaico_dorado\\Yellow Mosaic 218.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\mosaico_dorado\\Yellow Mosaic 218.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 120.png",
+      "phash64": "12689111747082727909"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\mosaico_dorado\\Yellow Mosaic 227.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\mosaico_dorado\\Yellow Mosaic 227.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 203.png",
+      "phash64": "12738382397854499891"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\mosaico_dorado\\Yellow Mosaic 255.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\mosaico_dorado\\Yellow Mosaic 255.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 213.png",
+      "phash64": "17259642572138558714"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\mosaico_dorado\\Yellow Mosaic 80.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\mosaico_dorado\\Yellow Mosaic 80.png",
+      "reference": "data\\processed\\classification_split\\train\\mosaico_dorado\\Yellow Mosaic 211.png",
+      "phash64": "13767452318513704251"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 1011.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 1011.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 374.png",
+      "phash64": "12300972439936535485"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 1037.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 1037.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 286.png",
+      "phash64": "12306882223674564407"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 1044.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 1044.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 26.png",
+      "phash64": "12785089955119313716"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 1067.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 1067.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1074.png",
+      "phash64": "18419089677398130342"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 1069.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 1069.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 350.png",
+      "phash64": "16886956664672295463"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 1088.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 1088.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 55.png",
+      "phash64": "13754205602668426690"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 1089.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 1089.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 204.png",
+      "phash64": "13777022194868109261"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 109.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 109.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1132.png",
+      "phash64": "12581866558225201191"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 1099.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 1099.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 161.png",
+      "phash64": "13827387998726860240"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 110.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 110.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 350.png",
+      "phash64": "16886956664672295463"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 1101.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 1101.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 414.png",
+      "phash64": "13801198039636921141"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 1145.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 1145.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 16.png",
+      "phash64": "17264215380586750094"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 123.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 123.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 394.png",
+      "phash64": "16917091539160666085"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 138.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 138.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 423.png",
+      "phash64": "13803182050583459134"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 177.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 177.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1102.png",
+      "phash64": "13803182079843843135"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 190.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 190.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 189.png",
+      "phash64": "13496938028623957211"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 242.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 242.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1157.png",
+      "phash64": "16854605162038503278"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 258.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 258.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 254.png",
+      "phash64": "13780947652593007676"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 259.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 259.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 145.png",
+      "phash64": "13767435877709039810"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 276.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 276.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 37.png",
+      "phash64": "13794754583657672143"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 285.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 285.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 100.png",
+      "phash64": "12652529362159362190"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 295.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 295.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1162.png",
+      "phash64": "13817840181177623994"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 309.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 309.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 30.png",
+      "phash64": "13452205153738984429"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 357.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 357.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 865.png",
+      "phash64": "17230426792817801519"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 397.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 397.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 379.png",
+      "phash64": "18343689449464536943"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 412.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 412.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 290.png",
+      "phash64": "17230426792817802029"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 425.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 425.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 501.png",
+      "phash64": "13576034635431555187"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 426.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 426.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 377.png",
+      "phash64": "12577380515027564839"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 428.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 428.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1114.png",
+      "phash64": "13574908735523663987"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 502.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 502.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 394.png",
+      "phash64": "16917091539160666085"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 519.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 519.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1132.png",
+      "phash64": "12581866558225201191"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 524.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 524.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 174.png",
+      "phash64": "13790259231012865749"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 53.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 53.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 55.png",
+      "phash64": "13754205602668426690"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 556.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 556.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 314.png",
+      "phash64": "13785400501339164619"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 560.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 560.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 130.png",
+      "phash64": "13802618589732220599"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 576.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 576.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 58.png",
+      "phash64": "13776740284086169502"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 595.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 595.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 644.png",
+      "phash64": "12546959158857382206"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 605.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 605.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 398.png",
+      "phash64": "18042125159801277138"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 608.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 608.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 327.png",
+      "phash64": "18043813810895404721"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 613.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 613.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1016.png",
+      "phash64": "16930368055177846128"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 62.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 62.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 591.png",
+      "phash64": "13819172516443475770"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 621.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 621.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 176.png",
+      "phash64": "13460838881107995762"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 64.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 64.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1102.png",
+      "phash64": "13803182079843843135"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 659.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 659.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1104.png",
+      "phash64": "13425160896881127227"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 68.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 68.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 406.png",
+      "phash64": "17105184402420818223"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 683.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 683.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 114.png",
+      "phash64": "17230356493933681199"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 698.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 698.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 35.png",
+      "phash64": "13524803685177896086"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 705.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 705.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 527.png",
+      "phash64": "12616489047591172397"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 71.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 71.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1114.png",
+      "phash64": "13574908735523663987"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 710.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 710.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 201.png",
+      "phash64": "13783988728442728395"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 75.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 75.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 499.png",
+      "phash64": "13612062932852629894"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 755.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 755.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 453.png",
+      "phash64": "18332114555929639571"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 760.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 760.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 304.png",
+      "phash64": "13831891510819239410"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 766.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 766.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 158.png",
+      "phash64": "16974846783823297505"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 785.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 785.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1020.png",
+      "phash64": "13803182079843843255"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 817.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 817.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 308.png",
+      "phash64": "16974846818183035617"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 836.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 836.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 42.png",
+      "phash64": "16899125514046323297"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 840.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 840.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 942.png",
+      "phash64": "13605307061808739388"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 852.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 852.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1086.png",
+      "phash64": "13708890058555079740"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 878.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 878.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 967.png",
+      "phash64": "16930403239281499504"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 88.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 88.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1020.png",
+      "phash64": "13803182079843843255"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 883.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 883.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1043.png",
+      "phash64": "13827387998726798785"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 911.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 911.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 228.png",
+      "phash64": "12652531560914120846"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 938.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 938.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 292.png",
+      "phash64": "13776740417230155678"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 944.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 944.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 313.png",
+      "phash64": "13826191730403994805"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 956.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 956.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 772.png",
+      "phash64": "12654200610667969974"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 957.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 957.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 289.png",
+      "phash64": "13826263196706354626"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 970.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 970.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 350.png",
+      "phash64": "16886956664672295463"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 976.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 976.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 180.png",
+      "phash64": "13818100003093376801"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 982.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 982.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 189.png",
+      "phash64": "13496938028623957211"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 993.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 993.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 921.png",
+      "phash64": "12597628205365025764"
+    },
+    {
+      "reason": "phash0_collision_with_train",
+      "moved_from_inferred": "data\\processed\\classification_split\\val\\sano\\Good Leaf 996.png",
+      "moved_to": "data\\processed\\classification_split\\duplicates_moved_phash0\\val\\sano\\Good Leaf 996.png",
+      "reference": "data\\processed\\classification_split\\train\\sano\\Good Leaf 1126.png",
+      "phash64": "18418808202421681830"
+    }
+  ]
+}

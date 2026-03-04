@@ -12,11 +12,11 @@ const Card: React.FC<CardProps> = ({ image, title, description, link }) => {
   return (
     <div
       className={`
-        w-[320px] flex-shrink-0 
-        bg-white rounded-3xl overflow-hidden 
-        shadow-lg 
+        w-full max-w-sm mx-auto
+        bg-white rounded-3xl overflow-hidden
+        shadow-lg
         transition-all duration-400 ease-out
-        hover:shadow-2xl 
+        hover:shadow-2xl
         hover:translate-y-[-8px]
         hover:scale-[1.02]
         group

@@ -6,7 +6,6 @@ import React, {
     type ChangeEvent 
 } from 'react'; 
 import { Upload, Image, X } from 'lucide-react'
-// Definición de props para el componente
 interface ImageUploaderProps {
   onImageChange: (file: File | null) => void;
   initialImagePreview?: string | null;
@@ -90,7 +89,7 @@ const ImageUploader: React.FC<ImageUploaderProps> = ({ onImageChange, initialIma
 
   // Clases Tailwind basadas en la paleta blanco/verde
   const baseClasses = "relative border-2 rounded-lg cursor-pointer transition-colors duration-200";
-  const dropActiveClasses = "border-green-600 bg-green-50"; // Verde claro al arrastrar
+  const dropActiveClasses = "border-green-600 bg-green-50"; 
   const dropInactiveClasses = "border-gray-300 hover:border-green-500 hover:bg-gray-50";
   const iconClasses = "w-10 h-10 text-green-600";
   const buttonClasses = "mt-4 px-4 py-2 bg-green-600 text-white rounded-md hover:bg-green-700 transition-colors duration-200 shadow-md";
@@ -99,7 +98,7 @@ const ImageUploader: React.FC<ImageUploaderProps> = ({ onImageChange, initialIma
 
   return (
     <div className="w-full max-w-lg mx-auto p-4 bg-white shadow-lg rounded-xl">
-      <h3 className="text-lg font-semibold text-gray-800 mb-4">🖼️ Cargar Imagen</h3>
+      <h3 className="text-lg font-semibold text-gray-800 mb-4"> Cargar Imagen</h3>
       
       {/* Input de archivo oculto */}
       <input

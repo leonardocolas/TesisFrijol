@@ -1,0 +1,306 @@
+{
+  "counts_per_split": {
+    "train": 1965,
+    "val": 410,
+    "test": 415
+  },
+  "total_files": 2790,
+  "unique_hashes": 2768,
+  "duplicates_across_splits": {
+    "count": 0,
+    "examples": []
+  },
+  "duplicates_within_split": {
+    "train": {
+      "count": 22,
+      "examples": [
+        {
+          "hash": "76f0164e33fc05eed94c4ff0bfec95bf04ecdc1bc5f43088d8567d83ecd6e279",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 107.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 206.png"
+            }
+          ]
+        },
+        {
+          "hash": "87648aa2a32f1683629cfc194b8f68e1fc39b687051675b9ee7ebd133da55749",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 109.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 141.png"
+            }
+          ]
+        },
+        {
+          "hash": "74f2314591830183033c984e881168eba35f8a1be098dd9a570f9c529caddbe9",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 116.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 163.png"
+            }
+          ]
+        },
+        {
+          "hash": "b47aca9ae306669d28a539709801f24a09a97dcf87fcc3c5341fa1a913e60fc6",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 122.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 157.png"
+            }
+          ]
+        },
+        {
+          "hash": "0f52a508c545eddf8eb9bc08f04748028e16e7445c7ebe28223366aa7601789f",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 123.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 138.png"
+            }
+          ]
+        },
+        {
+          "hash": "1ad6ed93d37b351a51230ed5e062aa6762c1b83745262c4ce4d74de26f62a3c2",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 131.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 18.png"
+            }
+          ]
+        },
+        {
+          "hash": "b186fc12f5427a17ab1d018509c2be6351f7d8a886ac948bd85441fac7e18ab4",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 143.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 98.png"
+            }
+          ]
+        },
+        {
+          "hash": "7d0e3f743047bcbe6547847df1d997d156d18e382c90b8a402e6d5c72698d9a3",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 148.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 245.png"
+            }
+          ]
+        },
+        {
+          "hash": "efad4075e24c0eaae1f0f2ceb989807cce69f5a3cd32ae4135fc8f63991d3ce9",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 156.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 33.png"
+            }
+          ]
+        },
+        {
+          "hash": "52fae610502439c607fb10884c7a828729601a9b65ab376df255b468ab0bed55",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 158.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 244.png"
+            }
+          ]
+        },
+        {
+          "hash": "954fe22ac6a93b69796330eeb5e0f27e80e6b566b868bf76a7fd2ed744582a88",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 159.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 196.png"
+            }
+          ]
+        },
+        {
+          "hash": "f553d528be33ab17f5e5dbe7ab5585bcdcf3d1eabcfa8c8a28a3c62ddea3c6c6",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 161.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 83.png"
+            }
+          ]
+        },
+        {
+          "hash": "03a25efac9f058d4909f6c96a7401407c390830a3da7ae5b50e75cc7f2d1030f",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 195.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 41.png"
+            }
+          ]
+        },
+        {
+          "hash": "88dd58da8a1b69c2d77c23db707ba1967cd26244e38220e5dcf2bf3a49b81ec6",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 251.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 45.png"
+            }
+          ]
+        },
+        {
+          "hash": "6d6dff73499b87470a91f08c0fe973fbd4929e1cb76347c2c354903f17b5d53f",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 53.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/mosaico_dorado/Yellow Mosaic 97.png"
+            }
+          ]
+        },
+        {
+          "hash": "4059767997457be2e11f226c1633a67123d88ded1db406a7e6b145ccc676371e",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/sano/Good Leaf 1015.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/sano/Good Leaf 1118.png"
+            }
+          ]
+        },
+        {
+          "hash": "65edaf89830f0e5324930f03d0eaa03b74437c2c3eebb0a886e1c12204e37ad4",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/sano/Good Leaf 103.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/sano/Good Leaf 672.png"
+            }
+          ]
+        },
+        {
+          "hash": "443871fc0b4c622aed7dca2e56756fb36d41965711197f5427d7f4b9370e5b20",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/sano/Good Leaf 1124.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/sano/Good Leaf 722.png"
+            }
+          ]
+        },
+        {
+          "hash": "9fb6047cfb7fb563d1d33737d562d9e05f91701f721acf7f50794112bc3e543b",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/sano/Good Leaf 139.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/sano/Good Leaf 713.png"
+            }
+          ]
+        },
+        {
+          "hash": "e9890e45a8150614bc14267e713234c5f5bc3a142d789a439337c382ffe8963e",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/sano/Good Leaf 342.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/sano/Good Leaf 773.png"
+            }
+          ]
+        },
+        {
+          "hash": "ef91fc2925f2a01ba7e47360c43374ea20452e902298fe31c4562b4aa0dba309",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/sano/Good Leaf 495.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/sano/Good Leaf 882.png"
+            }
+          ]
+        },
+        {
+          "hash": "68f3a6cf925bb15b18799791603b1037cc59ea1174290e448518c3bd61e61d30",
+          "entries": [
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/sano/Good Leaf 851.png"
+            },
+            {
+              "split": "train",
+              "path": "data/processed/classification_split/train/sano/Good Leaf 905.png"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}

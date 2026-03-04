@@ -9,8 +9,9 @@ interface DiagnosticoConPromedio extends DiagnosticoResponse {
 
 // Función para mapear clases a nombres amigables
 const mostrarClase = (clase: string) => {
-  if (clase.toLowerCase() === 'sana') return 'Sana';
-  if (clase.toLowerCase() === 'mosaico_dorado') return 'Mosaico Dorado';
+  const normalized = clase.toLowerCase();
+  if (normalized === 'sana' || normalized === 'sano') return 'Sana';
+  if (normalized === 'mosaico_dorado' || normalized === 'mosaico') return 'Mosaico Dorado';
   return clase;
 };
 
@@ -164,7 +165,7 @@ function BeansDeteccion() {
                         <strong>Hoja #{index + 1}:</strong>{' '}
                         <span
                           className={
-                            hoja.clase.toLowerCase() === 'sana'
+                            hoja.clase.toLowerCase() === 'sana' || hoja.clase.toLowerCase() === 'sano'
                               ? 'text-green-600'
                               : 'text-red-600'
                           }

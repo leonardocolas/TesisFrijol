@@ -1,0 +1,24 @@
+{
+  "before_counts_per_split": {
+    "train": 1965,
+    "val": 410,
+    "test": 415
+  },
+  "before_total_files": 2790,
+  "after_counts_per_split": {
+    "train": 1943,
+    "val": 328,
+    "test": 321
+  },
+  "after_total_files": 2592,
+  "moved_exact_count": 22,
+  "moved_phash0_count": 176,
+  "moved_dirs": {
+    "exact": "data\\processed\\classification_split\\duplicates_moved_exact",
+    "phash0": "data\\processed\\classification_split\\duplicates_moved_phash0"
+  },
+  "reports": {
+    "exact": "models/classification/dedup_exact_report.json",
+    "phash0": "models/classification/dedup_phash0_report.json"
+  }
+}

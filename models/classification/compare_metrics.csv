@@ -1,0 +1,3 @@
+framework,accuracy,precision,recall,f1,auc,ms_per_image,vram_peak_bytes
+tensorflow,0.987654,0.979508,1.000000,0.989648,0.999950,36.777498,0
+pytorch,0.995062,0.991701,1.000000,0.995833,0.999924,44.773136,0

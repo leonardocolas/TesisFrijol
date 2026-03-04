@@ -1,0 +1,77 @@
+{
+  "moved_count": 18,
+  "entries": [
+    {
+      "from": "data/processed/classification_split/val/mosaico_dorado/Yellow Mosaic 166.png",
+      "to": "data/processed/classification_split/duplicates_moved/val/mosaico_dorado/Yellow Mosaic 166.png"
+    },
+    {
+      "from": "data/processed/classification_split/test/mosaico_dorado/Yellow Mosaic 3.png",
+      "to": "data/processed/classification_split/duplicates_moved/test/mosaico_dorado/Yellow Mosaic 3.png"
+    },
+    {
+      "from": "data/processed/classification_split/test/mosaico_dorado/Yellow Mosaic 81.png",
+      "to": "data/processed/classification_split/duplicates_moved/test/mosaico_dorado/Yellow Mosaic 81.png"
+    },
+    {
+      "from": "data/processed/classification_split/val/mosaico_dorado/Yellow Mosaic 167.png",
+      "to": "data/processed/classification_split/duplicates_moved/val/mosaico_dorado/Yellow Mosaic 167.png"
+    },
+    {
+      "from": "data/processed/classification_split/val/mosaico_dorado/Yellow Mosaic 191.png",
+      "to": "data/processed/classification_split/duplicates_moved/val/mosaico_dorado/Yellow Mosaic 191.png"
+    },
+    {
+      "from": "data/processed/classification_split/val/sano/Good Leaf 664.png",
+      "to": "data/processed/classification_split/duplicates_moved/val/sano/Good Leaf 664.png"
+    },
+    {
+      "from": "data/processed/classification_split/test/sano/Good Leaf 173.png",
+      "to": "data/processed/classification_split/duplicates_moved/test/sano/Good Leaf 173.png"
+    },
+    {
+      "from": "data/processed/classification_split/val/sano/Good Leaf 226.png",
+      "to": "data/processed/classification_split/duplicates_moved/val/sano/Good Leaf 226.png"
+    },
+    {
+      "from": "data/processed/classification_split/val/sano/Good Leaf 44.png",
+      "to": "data/processed/classification_split/duplicates_moved/val/sano/Good Leaf 44.png"
+    },
+    {
+      "from": "data/processed/classification_split/test/sano/Good Leaf 346.png",
+      "to": "data/processed/classification_split/duplicates_moved/test/sano/Good Leaf 346.png"
+    },
+    {
+      "from": "data/processed/classification_split/val/sano/Good Leaf 315.png",
+      "to": "data/processed/classification_split/duplicates_moved/val/sano/Good Leaf 315.png"
+    },
+    {
+      "from": "data/processed/classification_split/test/sano/Good Leaf 1144.png",
+      "to": "data/processed/classification_split/duplicates_moved/test/sano/Good Leaf 1144.png"
+    },
+    {
+      "from": "data/processed/classification_split/val/sano/Good Leaf 723.png",
+      "to": "data/processed/classification_split/duplicates_moved/val/sano/Good Leaf 723.png"
+    },
+    {
+      "from": "data/processed/classification_split/val/sano/Good Leaf 331.png",
+      "to": "data/processed/classification_split/duplicates_moved/val/sano/Good Leaf 331.png"
+    },
+    {
+      "from": "data/processed/classification_split/test/sano/Good Leaf 85.png",
+      "to": "data/processed/classification_split/duplicates_moved/test/sano/Good Leaf 85.png"
+    },
+    {
+      "from": "data/processed/classification_split/val/sano/Good Leaf 369.png",
+      "to": "data/processed/classification_split/duplicates_moved/val/sano/Good Leaf 369.png"
+    },
+    {
+      "from": "data/processed/classification_split/val/sano/Good Leaf 906.png",
+      "to": "data/processed/classification_split/duplicates_moved/val/sano/Good Leaf 906.png"
+    },
+    {
+      "from": "data/processed/classification_split/test/sano/Good Leaf 521.png",
+      "to": "data/processed/classification_split/duplicates_moved/test/sano/Good Leaf 521.png"
+    }
+  ]
+}

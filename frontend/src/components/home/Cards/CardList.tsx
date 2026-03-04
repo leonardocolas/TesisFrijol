@@ -1,4 +1,5 @@
 import React from "react";
+import { motion} from "framer-motion";
 import Card from "./Card";
 import imgrice from "../../../assets/img/imgrice.jpg";
 import imgbeans from "../../../assets/img/imgfrijol.avif";
@@ -38,19 +39,14 @@ const CardsList: React.FC = () => {
       </h2>
       
   
-      <div 
-        className="
-          flex overflow-x-auto snap-x snap-mandatory 
-          space-x-6 px-6 pb-8 
-          md:justify-center md:gap-8 
-          md:overflow-x-visible md:snap-none 
-          
-        "
-      >
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 px-6 max-w-7xl mx-auto">
         {cardsData.map((card, index) => (
-          <div 
-            key={index} 
-            className="flex-shrink-0 snap-start w-[280px]"
+          <motion.div
+            key={index}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            transition={{ duration: 0.6, delay: index * 0.2 }}
+            viewport={{ once: true }}
           >
             <Card
               image={card.image}
@@ -58,7 +54,7 @@ const CardsList: React.FC = () => {
               description={card.description}
               link={card.link}
             />
-          </div>
+          </motion.div>
         ))}
       </div>
     </div>
