@@ -11,19 +11,10 @@ from PIL import Image
 from django.conf import settings
 
 
-# ============================================================
-# 1. RUTA REAL DEL PROYECTO (fuera de backend/)
-# ============================================================
-
-# settings.BASE_DIR = TesisFrijol/backend
-# Por tanto, el proyecto raiz es:
+#RUTA REAL DEL PROYECTO 
 PROJECT_ROOT = os.path.dirname(settings.BASE_DIR)
 
-
-# ============================================================
-# 2. RUTAS DE MODELOS (edita aqui si cambian)
-# ============================================================
-
+#RUTAS DE MODELOS (edita aqui si cambian)
 PREFERRED_YOLO_PATHS = [
     os.path.join(PROJECT_ROOT, "runs", "detect", "train", "weights", "best.pt"),
 ]
@@ -33,20 +24,14 @@ PREFERRED_TFLITE_PATHS = [
 ]
 
 
-# ============================================================
-# 3. MODELOS CACHEADOS
-# ============================================================
-
+#MODELOS CACHEADOS
 _yolo_model = None
 _tflite_interpreter = None
 _tflite_input_details = None
 _tflite_output_details = None
 
 
-# ============================================================
-# 4. ETIQUETAS CANONICAS Y COMPATIBILIDAD
-# ============================================================
-
+# ETIQUETAS CANONICAS Y COMPATIBILIDAD
 CLASS_MOSAICO = "mosaico_dorado"
 CLASS_SANO = "sano"
 LEGACY_API_LABELS = {
@@ -55,10 +40,7 @@ LEGACY_API_LABELS = {
 }
 
 
-# ============================================================
-# 5. IMPORTAR YOLO DE FORMA SEGURA
-# ============================================================
-
+#IMPORTAR YOLO DE FORMA SEGURA
 def _import_yolo_class():
     try:
         from ultralytics import YOLO
@@ -68,10 +50,7 @@ def _import_yolo_class():
         return None
 
 
-# ============================================================
-# 6. CARGA PEREZOSA DE MODELOS
-# ============================================================
-
+# CARGA PEREZOSA DE MODELOS
 def _ensure_models_loaded():
     global _yolo_model, _tflite_interpreter, _tflite_input_details, _tflite_output_details
 
@@ -106,9 +85,7 @@ def _ensure_models_loaded():
         _tflite_output_details = _tflite_interpreter.get_output_details()
 
 
-# ============================================================
-# 7. UTILIDADES
-# ============================================================
+# UTILIDADES
 
 def _legacy_label(canonical_label: str) -> str:
     return LEGACY_API_LABELS.get(canonical_label, canonical_label)
@@ -177,10 +154,7 @@ def recortar_region(img, box):
     return img[max(0, y1) : min(h, y2), max(0, x1) : min(w, x2)]
 
 
-# ============================================================
-# 8. CLASIFICACION INDIVIDUAL
-# ============================================================
-
+#CLASIFICACION INDIVIDUAL
 def classify_leaf(img):
     _ensure_models_loaded()
 
@@ -213,10 +187,7 @@ def classify_leaf(img):
     }
 
 
-# ============================================================
-# 9. PIPELINE COMPLETO
-# ============================================================
-
+# PIPELINE COMPLETO
 def procesar_imagen_diagnostico(path_imagen):
     _ensure_models_loaded()
     global _yolo_model

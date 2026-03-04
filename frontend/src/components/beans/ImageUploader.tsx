@@ -26,7 +26,6 @@ const ImageUploader: React.FC<ImageUploaderProps> = ({ onImageChange, initialIma
       };
       reader.readAsDataURL(file);
     } else {
-      // Opcional: Manejar archivos no-imagen o nulos
       alert('Por favor, selecciona un archivo de imagen válido.');
       setPreview(null);
       onImageChange(null);
@@ -73,7 +72,7 @@ const ImageUploader: React.FC<ImageUploaderProps> = ({ onImageChange, initialIma
     e.preventDefault(); // Necesario para permitir el drop
   };
 
-  // 4. Limpiar la imagen
+  // Limpiar la imagen
   const handleClearImage = () => {
     setPreview(null);
     onImageChange(null);
@@ -82,12 +81,11 @@ const ImageUploader: React.FC<ImageUploaderProps> = ({ onImageChange, initialIma
     }
   };
 
-  // 5. Simular click en el input oculto
+  //  Simular click en el input oculto
   const triggerFileInput = () => {
     fileInputRef.current?.click();
   };
 
-  // Clases Tailwind basadas en la paleta blanco/verde
   const baseClasses = "relative border-2 rounded-lg cursor-pointer transition-colors duration-200";
   const dropActiveClasses = "border-green-600 bg-green-50"; 
   const dropInactiveClasses = "border-gray-300 hover:border-green-500 hover:bg-gray-50";
@@ -105,8 +103,6 @@ const ImageUploader: React.FC<ImageUploaderProps> = ({ onImageChange, initialIma
         type="file"
         id="image-upload-input"
         accept="image/*"
-        // 'capture' es un atributo HTML que puede sugerir al dispositivo la fuente de captura (ej. cámara)
-        // El comportamiento exacto depende del navegador y sistema operativo
         capture="environment" 
         ref={fileInputRef}
         onChange={onSelectFile}
@@ -130,7 +126,7 @@ const ImageUploader: React.FC<ImageUploaderProps> = ({ onImageChange, initialIma
             {/* Botón para borrar la imagen */}
             <button
               onClick={(e) => {
-                e.stopPropagation(); // Evita que el click se propague al div de arriba (triggerFileInput)
+                e.stopPropagation(); 
                 handleClearImage();
               }}
               className={clearButtonClasses}
@@ -140,7 +136,7 @@ const ImageUploader: React.FC<ImageUploaderProps> = ({ onImageChange, initialIma
             </button>
           </div>
         ) : (
-          // Área de carga (vacía)
+        
           <div className="flex flex-col items-center justify-center p-6 text-center h-full">
             <Upload className={iconClasses} />
             <p className="mt-2 text-sm text-gray-600">
