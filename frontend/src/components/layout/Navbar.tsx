@@ -1,6 +1,6 @@
 import { useState } from "react";
 import { Link, NavLink, useLocation } from "react-router-dom";
-import { Menu, X, Home as HomeIcon } from "lucide-react";
+import { Menu, X, Home as HomeIcon, Bean, Wheat, Vegan } from "lucide-react";
 import Logo from '../../assets/img/logo.jpg';
 
 const Navbar = () => {
@@ -13,6 +13,7 @@ const Navbar = () => {
     { 
       name: "Frijol", 
       key: "frijol",
+      icon: <Bean className="w-4 h-4" />,
       subMenu: [
         { name: "Información General", to: "/beans" },
         { name: "Enfermedades y Plagas", to: "/beans/plagas" },
@@ -22,6 +23,7 @@ const Navbar = () => {
     { 
       name: "Maíz", 
       key: "maiz",
+      icon: <Wheat className="w-4 h-4" />,
       subMenu: [
         { name: "Información General", to: "/corn" },
         { name: "Enfermedades y Plagas", to: "/corn/plagas" },
@@ -30,6 +32,7 @@ const Navbar = () => {
     { 
       name: "Arroz", 
       key: "arroz",
+      icon: <Vegan className="w-4 h-4" />,
       subMenu: [
         { name: "Información General", to: "/rice" },
         { name: "Enfermedades y Plagas", to: "/rice/plagas" },

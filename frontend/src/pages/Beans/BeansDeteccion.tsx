@@ -1,6 +1,6 @@
 import { useState } from 'react';
-import ImageUploader from '../components/beans/ImageUploader';
-import { enviarImagenDiagnostico, type DiagnosticoResponse } from '../api/diagnostico';
+import ImageUploader from '../../components/beans/ImageUploader';
+import { enviarImagenDiagnostico, type DiagnosticoResponse } from '../../api/diagnostico';
 
 interface DiagnosticoConPromedio extends DiagnosticoResponse {
   promedioSana: number;
