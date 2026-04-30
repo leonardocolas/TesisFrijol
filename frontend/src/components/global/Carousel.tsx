@@ -39,7 +39,7 @@ const Carousel = ({
   if (!images.length) {
     return (
       <div className="rounded-3xl border border-slate-200 bg-white p-6 text-center text-slate-500 shadow-sm">
-        No hay imagenes para mostrar.
+        No hay imágenes para mostrar.
       </div>
     );
   }

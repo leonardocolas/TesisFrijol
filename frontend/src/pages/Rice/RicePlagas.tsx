@@ -13,13 +13,13 @@ const enfermedadesArroz: EnfermedadItem[] = [
   {
     id: 1,
     nombre: 'Mancha parda',
-    descripcion: 'Enfermedad fungica que afecta hojas y grano bajo alta humedad.',
+    descripcion: 'Enfermedad fúngica que afecta hojas y grano bajo alta humedad.',
     ruta: '/rice/enfermedades/mancha-parda',
   },
   {
     id: 2,
     nombre: 'Chinche del arroz',
-    descripcion: 'Plaga que dania paniculas durante llenado y reduce calidad comercial.',
+    descripcion: 'Plaga que daña panículas durante llenado y reduce calidad comercial.',
     ruta: '/rice/enfermedades/chinche-del-arroz',
   },
 ];
@@ -37,9 +37,9 @@ const RicePlagas = () => {
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-12">
-      <h1 className="mb-3 text-3xl font-bold text-green-800">Enfermedades del Arroz</h1>
+      <h1 className="mb-3 text-3xl font-bold text-green-800">Enfermedades del arroz</h1>
       <p className="mb-8 max-w-3xl text-green-700">
-        Selecciona una enfermedad para abrir su pagina detallada con carrusel de imagenes y manejo recomendado.
+        Selecciona una enfermedad para abrir su página detallada con carrusel de imágenes y manejo recomendado.
       </p>
 
       <div className="relative mb-10 max-w-xl">

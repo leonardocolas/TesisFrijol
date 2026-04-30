@@ -12,39 +12,39 @@ const Empoasca = () => {
       eyebrow="Frijol - plaga foliar"
       title="Empoasca"
       subtitle="La chicharrita del frijol afecta tejido foliar, reduce vigor y compromete el rendimiento cuando no se maneja a tiempo."
-      carouselTitle="Galeria de sintomas"
-      carouselDescription="Secuencia visual de danos por Empoasca en hojas y brotes para facilitar la deteccion en campo."
+      carouselTitle="Galería de síntomas"
+      carouselDescription="Secuencia visual de daños por Empoasca en hojas y brotes para facilitar la detección en campo."
       images={images}
       imageAltPrefix="Empoasca en frijol"
-      infoTitle="Informacion tecnica"
-      summaryTitle="Resumen de diagnostico rapido"
-      summaryDescription="Variables clave para diferenciar dano por Empoasca, priorizar monitoreo y tomar decisiones de control."
+      infoTitle="Información técnica"
+      summaryTitle="Resumen de diagnóstico rápido"
+      summaryDescription="Variables clave para diferenciar daño por Empoasca, priorizar monitoreo y tomar decisiones de control."
       statsTitle="Indicadores de campo"
-      benefitsTitle="Sintomas caracteristicos"
+      benefitsTitle="Síntomas característicos"
       cultivationTitle="Estrategia de manejo"
-      overviewDescription="El dano por Empoasca se relaciona con succion de savia en hojas y brotes tiernos, con efecto acumulativo durante etapas vegetativas y reproductivas."
+      overviewDescription="El daño por Empoasca se relaciona con succión de savia en hojas y brotes tiernos, con efecto acumulativo durante etapas vegetativas y reproductivas."
       overviewSections={[
         {
           icon: Bug,
-          title: 'Biologia de la plaga',
+          title: 'Biología de la plaga',
           paragraphs: [
-            'Insecto pequeno y movil que coloniza rapidamente plantas en lotes con alta presion ambiental.',
-            'Ninfas y adultos se alimentan en hojas nuevas, donde el impacto fisiologico es mayor.',
+            'Insecto pequeño y móvil que coloniza rápidamente plantas en lotes con alta presión ambiental.',
+            'Ninfas y adultos se alimentan en hojas nuevas, donde el impacto fisiológico es mayor.',
           ],
         },
         {
           icon: Leaf,
           title: 'Efecto en la planta',
           paragraphs: [
-            'Produce alteraciones en bordes foliares, perdida de color y menor area activa para fotosintesis.',
-            'El estres continuo reduce crecimiento y limita capacidad de llenado de vaina.',
+            'Produce alteraciones en bordes foliares, pérdida de color y menor área activa para fotosíntesis.',
+            'El estrés continuo reduce crecimiento y limita capacidad de llenado de vaina.',
           ],
         },
         {
           icon: Eye,
-          title: 'Diagnostico',
+          title: 'Diagnóstico',
           paragraphs: [
-            'Inspeccionar hojas trifoliadas y brotes para reconocer dano inicial antes de sintomas severos.',
+            'Inspeccionar hojas trifoliadas y brotes para reconocer daño inicial antes de síntomas severos.',
             'El muestreo semanal permite detectar incrementos poblacionales en forma temprana.',
           ],
         },
@@ -52,38 +52,38 @@ const Empoasca = () => {
           icon: AlertTriangle,
           title: 'Escenarios de mayor riesgo',
           paragraphs: [
-            'Ambientes calidos y periodos secos suelen aumentar la presion de la plaga.',
+            'Ambientes cálidos y períodos secos suelen aumentar la presión de la plaga.',
             'Parcelas con malezas hospederas cercanas sostienen reinfestaciones frecuentes.',
           ],
         },
       ]}
       stats={[
         {
-          value: 'Rapida',
-          label: 'Colonizacion',
+          value: 'Rápida',
+          label: 'Colonización',
           note: 'Puede multiplicarse en poco tiempo cuando no existe vigilancia continua.',
         },
         {
           value: 'Foliar',
-          label: 'Tipo de dano',
+          label: 'Tipo de daño',
           note: 'Afecta principalmente hojas y brotes con impacto directo en vigor del cultivo.',
         },
         {
           value: 'Progresivo',
           label: 'Impacto',
-          note: 'El dano acumulado se expresa en menor crecimiento y menor rendimiento.',
+          note: 'El daño acumulado se expresa en menor crecimiento y menor rendimiento.',
         },
       ]}
       benefits={[
         {
           icon: Leaf,
-          title: 'Bordes necroticos',
-          description: 'Hojas con aspecto de quemado y deterioro en margen y apice.',
+          title: 'Bordes necróticos',
+          description: 'Hojas con aspecto de quemado y deterioro en margen y ápice.',
         },
         {
           icon: Target,
-          title: 'Enrrollamiento',
-          description: 'Laminas deformadas con menor expansion y menor capacidad fotosintetica.',
+          title: 'Enrollamiento',
+          description: 'Láminas deformadas con menor expansión y menor capacidad fotosintética.',
         },
         {
           icon: AlertTriangle,
@@ -94,18 +94,18 @@ const Empoasca = () => {
       cultivation={[
         {
           icon: Eye,
-          title: 'Muestreo sistematico',
-          description: 'Realizar monitoreo por puntos fijos y ajustar acciones segun intensidad del ataque.',
+          title: 'Muestreo sistemático',
+          description: 'Realizar monitoreo por puntos fijos y ajustar acciones según intensidad del ataque.',
         },
         {
           icon: ShieldCheck,
           title: 'Manejo cultural',
-          description: 'Reducir malezas hospederas y mejorar sanidad general del lote para bajar la presion.',
+          description: 'Reducir malezas hospederas y mejorar sanidad general del lote para bajar la presión.',
         },
         {
           icon: SprayCan,
-          title: 'Intervencion oportuna',
-          description: 'Aplicar medidas de control integradas priorizando selectividad y rotacion de activos.',
+          title: 'Intervención oportuna',
+          description: 'Aplicar medidas de control integradas priorizando selectividad y rotación de activos.',
         },
       ]}
       theme={{

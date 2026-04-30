@@ -1,0 +1,17 @@
+Validacion automatizada de salidas de modelos
+================================================
+[RESULTADO] PRUEBA UNITARIA GLOBAL: PASS
+
+[CHECK] YOLO precision final en [0,1]: True
+[CHECK] YOLO recall final en [0,1]: True
+[CHECK] YOLO mAP50 final en [0,1]: True
+[CHECK] Deteccion en imagen de hoja (>0): True
+[CHECK] Probabilidades de clasificacion en rango [0,1] para todas las hojas: True
+[CHECK] Suma de probabilidades ~1 para todas las hojas: True
+[CHECK] Imagen sin hoja detecta 0 hojas: True
+
+Metricas finales YOLO (epoca 50)
+precision: 0.7127
+recall: 0.7031
+mAP50: 0.7568
+mAP50-95: 0.4172

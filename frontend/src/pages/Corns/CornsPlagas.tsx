@@ -13,19 +13,19 @@ const enfermedadesMaiz: EnfermedadItem[] = [
   {
     id: 1,
     nombre: 'Gusano cogollero',
-    descripcion: 'Plaga de alta incidencia en etapas tempranas, con dano en cogollo y hojas nuevas.',
+    descripcion: 'Plaga de alta incidencia en etapas tempranas, con daño en cogollo y hojas nuevas.',
     ruta: '/corn/enfermedades/gusano-cogollero',
   },
   {
     id: 2,
-    nombre: 'Roya del maiz',
-    descripcion: 'Enfermedad fungica foliar que reduce area fotosintetica y llenado de grano.',
+    nombre: 'Roya del maíz',
+    descripcion: 'Enfermedad fúngica foliar que reduce área fotosintética y llenado de grano.',
     ruta: '/corn/enfermedades/roya-del-maiz',
   },
   {
     id: 3,
-    nombre: 'Picudo del maiz',
-    descripcion: 'Problema importante en postcosecha por perforacion y perdida de calidad del grano.',
+    nombre: 'Picudo del maíz',
+    descripcion: 'Problema importante en postcosecha por perforación y pérdida de calidad del grano.',
     ruta: '/corn/enfermedades/picudo-del-maiz',
   },
 ];
@@ -43,9 +43,9 @@ const CornsPlagas = () => {
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-12">
-      <h1 className="mb-3 text-3xl font-bold text-green-800">Enfermedades del Maiz</h1>
+      <h1 className="mb-3 text-3xl font-bold text-green-800">Enfermedades del maíz</h1>
       <p className="mb-8 max-w-3xl text-green-700">
-        Selecciona una enfermedad para ver su ficha tecnica con carrusel de imagenes y recomendaciones de manejo.
+        Selecciona una enfermedad para ver su ficha técnica con carrusel de imágenes y recomendaciones de manejo.
       </p>
 
       <div className="relative mb-10 max-w-xl">
@@ -53,7 +53,7 @@ const CornsPlagas = () => {
           onClick={() => setMenuAbierto((prev) => !prev)}
           className="flex w-full items-center justify-between rounded-xl border border-green-300 bg-white px-5 py-3 text-left text-green-800 shadow-sm hover:bg-green-50"
         >
-          {seleccionada ? seleccionada.nombre : 'Seleccione una enfermedad del maiz'}
+          {seleccionada ? seleccionada.nombre : 'Seleccione una enfermedad del maíz'}
           <ChevronDown className={`h-5 w-5 transition-transform ${menuAbierto ? 'rotate-180' : ''}`} />
         </button>
 

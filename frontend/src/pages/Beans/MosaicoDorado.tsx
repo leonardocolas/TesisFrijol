@@ -14,61 +14,61 @@ const MosaicoDorado = () => {
       eyebrow="Frijol - virosis"
       title="Mosaico dorado del frijol"
       subtitle="Enfermedad viral de alto impacto productivo, estrechamente asociada a la presencia de mosca blanca."
-      carouselTitle="Galeria de sintomas"
-      carouselDescription="Imagenes de referencia para identificar patrones de mosaico, deformacion foliar y reduccion de vigor."
+      carouselTitle="Galería de síntomas"
+      carouselDescription="Imágenes de referencia para identificar patrones de mosaico, deformación foliar y reducción de vigor."
       images={images}
       imageAltPrefix="Mosaico dorado en frijol"
-      infoTitle="Informacion tecnica"
+      infoTitle="Información técnica"
       summaryTitle="Resumen de riesgo sanitario"
-      summaryDescription="Elementos clave para reconocer la virosis, estimar impacto y enfocar medidas de prevencion."
+      summaryDescription="Elementos clave para reconocer la virosis, estimar impacto y enfocar medidas de prevención."
       statsTitle="Indicadores de severidad"
-      benefitsTitle="Sintomas principales"
+      benefitsTitle="Síntomas principales"
       cultivationTitle="Manejo recomendado"
-      overviewDescription="No existe cura directa para plantas infectadas, por lo que el control se concentra en cortar la transmision y disminuir la carga de vector e inoculo."
+      overviewDescription="No existe cura directa para plantas infectadas, por lo que el control se concentra en cortar la transmisión y disminuir la carga de vector e inóculo."
       overviewSections={[
         {
           icon: FlaskConical,
           title: 'Naturaleza de la enfermedad',
           paragraphs: [
             'Corresponde a una virosis que altera tejido foliar y crecimiento del cultivo.',
-            'La infeccion temprana provoca danos mas severos y fuerte impacto sobre rendimiento.',
+            'La infección temprana provoca daños más severos y fuerte impacto sobre rendimiento.',
           ],
         },
         {
           icon: Eye,
-          title: 'Expresion en campo',
+          title: 'Expresión en campo',
           paragraphs: [
-            'Se observa mosaico amarillo-dorado entre nervaduras y reduccion del area verde funcional.',
-            'El cultivo puede mostrar enanismo, hojas deformadas y menor formacion de vainas.',
+            'Se observa mosaico amarillo-dorado entre nervaduras y reducción del área verde funcional.',
+            'El cultivo puede mostrar enanismo, hojas deformadas y menor formación de vainas.',
           ],
         },
         {
           icon: Bug,
-          title: 'Relacion con el vector',
+          title: 'Relación con el vector',
           paragraphs: [
-            'La mosca blanca facilita la diseminacion entre plantas y lotes vecinos.',
-            'La presion del vector aumenta cuando existen hospederos alternativos sin control.',
+            'La mosca blanca facilita la diseminación entre plantas y lotes vecinos.',
+            'La presión del vector aumenta cuando existen hospederos alternativos sin control.',
           ],
         },
         {
           icon: AlertTriangle,
-          title: 'Momentos criticos',
+          title: 'Momentos críticos',
           paragraphs: [
-            'Etapas vegetativas tempranas son las mas sensibles para la perdida de potencial productivo.',
-            'Reinfecciones sucesivas incrementan sintomas y deterioro de calidad comercial.',
+            'Etapas vegetativas tempranas son las más sensibles para la pérdida de potencial productivo.',
+            'Reinfecciones sucesivas incrementan síntomas y deterioro de calidad comercial.',
           ],
         },
       ]}
       stats={[
         {
           value: 'Muy alta',
-          label: 'Perdida potencial',
-          note: 'Cuando la infeccion ocurre temprano, la reduccion de rendimiento puede ser severa.',
+          label: 'Pérdida potencial',
+          note: 'Cuando la infección ocurre temprano, la reducción de rendimiento puede ser severa.',
         },
         {
           value: 'Vectorial',
-          label: 'Via de diseminacion',
-          note: 'La enfermedad depende de la dinamica poblacional de mosca blanca.',
+          label: 'Vía de diseminación',
+          note: 'La enfermedad depende de la dinámica poblacional de mosca blanca.',
         },
         {
           value: 'Sin cura',
@@ -80,29 +80,29 @@ const MosaicoDorado = () => {
         {
           icon: Leaf,
           title: 'Mosaico dorado',
-          description: 'Cambio irregular de coloracion verde a amarillo sobre hojas nuevas y adultas.',
+          description: 'Cambio irregular de coloración verde a amarillo sobre hojas nuevas y adultas.',
         },
         {
           icon: AlertTriangle,
-          title: 'Deformacion foliar',
-          description: 'Arrugamiento y curvatura de laminas con menor expansion del follaje.',
+          title: 'Deformación foliar',
+          description: 'Arrugamiento y curvatura de láminas con menor expansión del follaje.',
         },
         {
           icon: Eye,
           title: 'Menor desarrollo',
-          description: 'Plantas de menor tamano, con menos flores, vainas y llenado de grano.',
+          description: 'Plantas de menor tamaño, con menos flores, vainas y llenado de grano.',
         },
       ]}
       cultivation={[
         {
           icon: ShieldCheck,
           title: 'Semilla y sanidad',
-          description: 'Utilizar material sano y reducir fuentes de inoculo dentro y alrededor del lote.',
+          description: 'Utilizar material sano y reducir fuentes de inóculo dentro y alrededor del lote.',
         },
         {
           icon: SprayCan,
           title: 'Manejo del vector',
-          description: 'Integrar monitoreo, control biologico y control quimico selectivo cuando corresponda.',
+          description: 'Integrar monitoreo, control biológico y control químico selectivo cuando corresponda.',
         },
         {
           icon: Bug,

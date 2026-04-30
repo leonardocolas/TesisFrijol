@@ -21,47 +21,47 @@ const IGRice = () => {
     <CropInfoPage
       eyebrow="Cereal esencial"
       title="Arroz"
-      subtitle="Base energetica de millones de personas y un cultivo cuya calidad nutricional cambia segun el procesamiento del grano."
-      carouselTitle="Galeria del cultivo"
-      carouselDescription="El carrusel se ubica al inicio del contenido visual y ahora recibe imagenes importadas correctamente desde src/assets para que cada foto aparezca en la pagina."
+      subtitle="Base energética de millones de personas y un cultivo cuya calidad nutricional cambia según el procesamiento del grano."
+      carouselTitle="Galería del cultivo"
+      carouselDescription="Imágenes del cultivo de arroz que muestran su desarrollo vegetativo y el aspecto general del follaje en buen estado."
       images={riceImages}
       imageAltPrefix="Arroz sano"
-      overviewDescription="Despues del carrusel, la informacion general se reorganiza en bloques cortos para distinguir mejor origen, nutricion, consumo y cultivo."
+      overviewDescription="Panorama general del arroz, con énfasis en su papel alimentario, su valor nutricional y sus condiciones de cultivo."
       overviewSections={[
         {
           icon: Sprout,
           title: 'Base alimentaria mundial',
           paragraphs: [
-            'El arroz (Oryza sativa) es uno de los cereales mas importantes para la alimentacion humana y sostiene la dieta cotidiana de buena parte de la poblacion mundial.',
-            'Se adapta especialmente bien a climas calidos y humedos, donde los arrozales permiten controlar malezas y conservar condiciones estables para el cultivo.',
+            'El arroz (Oryza sativa) es uno de los cereales más importantes para la alimentación humana y sostiene la dieta cotidiana de buena parte de la población mundial.',
+            'Se adapta especialmente bien a climas cálidos y húmedos, donde los arrozales permiten controlar malezas y conservar condiciones estables para el cultivo.',
           ],
         },
         {
           icon: Apple,
           title: 'Integral vs blanco',
           paragraphs: [
-            'El arroz integral conserva salvado y germen, por eso ofrece mas fibra, vitaminas del grupo B y minerales como magnesio, fosforo y manganeso.',
-            'El arroz blanco pierde parte de esos componentes durante el pulido, pero resulta mas facil de digerir y puede integrarse en una dieta equilibrada si se acompana bien.',
+            'El arroz integral conserva salvado y germen, por eso ofrece más fibra, vitaminas del grupo B y minerales como magnesio, fósforo y manganeso.',
+            'El arroz blanco pierde parte de esos componentes durante el pulido, pero resulta más fácil de digerir y puede integrarse en una dieta equilibrada si se acompaña bien.',
           ],
           bullets: [
             'Integral: mayor densidad nutricional y mejor saciedad.',
-            'Blanco: textura mas suave y utilidad en dietas de facil digestion.',
+            'Blanco: textura más suave y utilidad en dietas de fácil digestión.',
           ],
         },
         {
           icon: ShieldCheck,
-          title: 'Consumo mas inteligente',
+          title: 'Consumo más inteligente',
           paragraphs: [
-            'Cocinar, enfriar por unas 24 horas y recalentar parte del arroz favorece la formacion de almidon resistente, una fraccion que actua como prebiotico.',
-            'Tambien conviene combinarlo con legumbres para mejorar la calidad proteica total y enjuagarlo bien antes de cocinarlo para reducir impurezas y trazas no deseadas.',
+            'Cocinar, enfriar por unas 24 horas y recalentar parte del arroz favorece la formación de almidón resistente, una fracción que actúa como prebiótico.',
+            'También conviene combinarlo con legumbres para mejorar la calidad proteica total y enjuagarlo bien antes de cocinarlo para reducir impurezas y trazas no deseadas.',
           ],
         },
         {
           icon: Heart,
           title: 'Diversidad y uso culinario',
           paragraphs: [
-            'Las variedades de grano largo, medio y corto se diferencian por textura y comportamiento durante la coccion, desde arroces sueltos hasta preparaciones mas pegajosas.',
-            'Ese abanico de usos lo convierte en un cultivo versatil tanto desde el punto de vista agricola como gastronomico.',
+            'Las variedades de grano largo, medio y corto se diferencian por textura y comportamiento durante la cocción, desde arroces sueltos hasta preparaciones más pegajosas.',
+            'Ese abanico de usos lo convierte en un cultivo versátil tanto desde el punto de vista agrícola como gastronómico.',
           ],
         },
       ]}
@@ -74,36 +74,36 @@ const IGRice = () => {
         {
           value: '0.2 g',
           label: 'Fibra del blanco',
-          note: 'Tiene menor aporte de fibra, aunque puede resultar mas digestivo en ciertos contextos.',
+          note: 'Tiene menor aporte de fibra, aunque puede resultar más digestivo en ciertos contextos.',
         },
         {
           value: '24 h',
           label: 'Enfriado recomendado',
-          note: 'Ese reposo favorece la conversion parcial del almidon en una forma mas resistente.',
+          note: 'Ese reposo favorece la conversión parcial del almidón en una forma más resistente.',
         },
       ]}
       benefits={[
         {
           icon: Leaf,
-          title: 'Energia sostenida',
-          description: 'Su riqueza en carbohidratos complejos lo mantiene como una base energetica eficiente y versatil.',
+          title: 'Energía sostenida',
+          description: 'Su riqueza en carbohidratos complejos lo mantiene como una base energética eficiente y versátil.',
         },
         {
           icon: Heart,
-          title: 'Mejor opcion integral',
-          description: 'La version integral aporta mas fibra y micronutrientes, con beneficios asociados al control metabolico y cardiovascular.',
+          title: 'Mejor opción integral',
+          description: 'La versión integral aporta más fibra y micronutrientes, con beneficios asociados al control metabólico y cardiovascular.',
         },
         {
           icon: Apple,
-          title: 'Buena combinacion alimentaria',
-          description: 'Acompanar el arroz con legumbres, verduras y proteinas ayuda a mejorar el equilibrio nutricional del plato.',
+          title: 'Buena combinación alimentaria',
+          description: 'Acompañar el arroz con legumbres, verduras y proteínas ayuda a mejorar el equilibrio nutricional del plato.',
         },
       ]}
       cultivation={[
         {
           icon: ThermometerSun,
           title: 'Clima',
-          description: 'Prospera en ambientes calidos y humedos donde la temperatura estable favorece el desarrollo de la planta.',
+          description: 'Prospera en ambientes cálidos y húmedos donde la temperatura estable favorece el desarrollo de la planta.',
         },
         {
           icon: Droplets,
@@ -113,7 +113,7 @@ const IGRice = () => {
         {
           icon: Sprout,
           title: 'Variedades',
-          description: 'La seleccion del tipo de grano condiciona rendimiento culinario, textura y destino final del producto.',
+          description: 'La selección del tipo de grano condiciona rendimiento culinario, textura y destino final del producto.',
         },
       ]}
       theme={{

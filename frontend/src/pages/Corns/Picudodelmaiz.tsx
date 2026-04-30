@@ -9,42 +9,42 @@ const images = [img1, img2, img3];
 const PicudoDelMaiz = () => {
   return (
     <CropInfoPage
-      eyebrow="Maiz - postcosecha"
-      title="Picudo del maiz"
+      eyebrow="Maíz - postcosecha"
+      title="Picudo del maíz"
       subtitle="Plaga de almacenamiento que perfora granos y reduce calidad, peso y viabilidad del lote."
-      carouselTitle="Galeria de sintomas"
-      carouselDescription="Referencias visuales de granos afectados por picudo y senales de infestacion en almacenamiento."
+      carouselTitle="Galería de síntomas"
+      carouselDescription="Referencias visuales de granos afectados por picudo y señales de infestación en almacenamiento."
       images={images}
-      imageAltPrefix="Picudo del maiz"
-      infoTitle="Informacion tecnica"
-      summaryTitle="Resumen de control en almacen"
-      summaryDescription="Puntos clave para detectar infestacion temprana y reducir mermas en grano almacenado."
+      imageAltPrefix="Picudo del maíz"
+      infoTitle="Información técnica"
+      summaryTitle="Resumen de control en almacén"
+      summaryDescription="Puntos clave para detectar infestación temprana y reducir mermas en grano almacenado."
       statsTitle="Indicadores postcosecha"
-      benefitsTitle="Senales de infestacion"
+      benefitsTitle="Señales de infestación"
       cultivationTitle="Manejo preventivo"
-      overviewDescription="El picudo se desarrolla dentro del grano, por lo que la deteccion visual temprana y las buenas practicas de almacenamiento son determinantes."
+      overviewDescription="El picudo se desarrolla dentro del grano, por lo que la detección visual temprana y las buenas prácticas de almacenamiento son determinantes."
       overviewSections={[
         {
           icon: Bug,
-          title: 'Biologia de la plaga',
+          title: 'Biología de la plaga',
           paragraphs: [
             'Adultos ovipositan en grano y las larvas completan su ciclo en el interior.',
-            'La infestacion puede mantenerse oculta hasta que emerge nueva generacion.',
+            'La infestación puede mantenerse oculta hasta que emerge nueva generación.',
           ],
         },
         {
           icon: Package,
-          title: 'Impacto economico',
+          title: 'Impacto económico',
           paragraphs: [
-            'Aumenta porcentaje de grano perforado y reduce peso util comercializable.',
-            'Tambien compromete calidad sanitaria al favorecer contaminacion secundaria.',
+            'Aumenta porcentaje de grano perforado y reduce peso útil comercializable.',
+            'También compromete calidad sanitaria al favorecer contaminación secundaria.',
           ],
         },
         {
           icon: Eye,
-          title: 'Diagnostico en almacen',
+          title: 'Diagnóstico en almacén',
           paragraphs: [
-            'Revisar periodicamente muestra de sacos o celdas buscando orificios y polvo fino.',
+            'Revisar periódicamente muestra de sacos o celdas buscando orificios y polvo fino.',
             'Monitorear olor, temperatura y presencia de insectos vivos en superficie.',
           ],
         },
@@ -52,60 +52,60 @@ const PicudoDelMaiz = () => {
           icon: AlertTriangle,
           title: 'Factores de riesgo',
           paragraphs: [
-            'Humedad alta del grano y limpieza deficiente del almacen elevan incidencia.',
-            'La mezcla de lotes viejos y nuevos acelera diseminacion interna.',
+            'Humedad alta del grano y limpieza deficiente del almacén elevan incidencia.',
+            'La mezcla de lotes viejos y nuevos acelera diseminación interna.',
           ],
         },
       ]}
       stats={[
         {
           value: 'Interno',
-          label: 'Tipo de dano',
-          note: 'La alimentacion larval ocurre dentro del grano y reduce deteccion temprana.',
+          label: 'Tipo de daño',
+          note: 'La alimentación larval ocurre dentro del grano y reduce detección temprana.',
         },
         {
           value: 'Postcosecha',
           label: 'Etapa critica',
-          note: 'La mayor perdida aparece durante almacenamiento sin control continuo.',
+          note: 'La mayor pérdida aparece durante almacenamiento sin control continuo.',
         },
         {
           value: 'Acumulativo',
           label: 'Comportamiento',
-          note: 'El dano aumenta con el tiempo si no se rompe el ciclo reproductivo.',
+          note: 'El daño aumenta con el tiempo si no se rompe el ciclo reproductivo.',
         },
       ]}
       benefits={[
         {
           icon: Eye,
           title: 'Perforaciones',
-          description: 'Granos con orificios visibles y perdida de integridad fisica.',
+          description: 'Granos con orificios visibles y pérdida de integridad física.',
         },
         {
           icon: AlertTriangle,
           title: 'Merma de peso',
-          description: 'Disminucion progresiva del volumen util del lote almacenado.',
+          description: 'Disminución progresiva del volumen útil del lote almacenado.',
         },
         {
           icon: Warehouse,
           title: 'Focos en almacenamiento',
-          description: 'Mayor concentracion en zonas con ventilacion deficiente o limpieza insuficiente.',
+          description: 'Mayor concentración en zonas con ventilación deficiente o limpieza insuficiente.',
         },
       ]}
       cultivation={[
         {
           icon: ShieldCheck,
           title: 'Secado correcto',
-          description: 'Almacenar solo grano con humedad adecuada para reducir reproduccion del picudo.',
+          description: 'Almacenar solo grano con humedad adecuada para reducir reproducción del picudo.',
         },
         {
           icon: Warehouse,
-          title: 'Higiene del almacen',
-          description: 'Limpiar estructuras, retirar residuos y separar lotes para evitar reinfestacion.',
+          title: 'Higiene del almacén',
+          description: 'Limpiar estructuras, retirar residuos y separar lotes para evitar reinfestación.',
         },
         {
           icon: SprayCan,
           title: 'Control postcosecha',
-          description: 'Aplicar tratamientos autorizados y monitoreo periodico segun protocolo local.',
+          description: 'Aplicar tratamientos autorizados y monitoreo periódico según protocolo local.',
         },
       ]}
       theme={{

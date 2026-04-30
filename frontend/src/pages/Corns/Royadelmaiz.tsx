@@ -10,18 +10,18 @@ const images = [img1, img2, img3, img4];
 const RoyaDelMaiz = () => {
   return (
     <CropInfoPage
-      eyebrow="Maiz - enfermedad foliar"
-      title="Roya del maiz"
-      subtitle="Enfermedad fungica que forma pustulas en hoja y reduce fotosintesis, con efecto directo en llenado de grano."
-      carouselTitle="Galeria de sintomas"
-      carouselDescription="Imagenes de lesiones tipo roya para facilitar el diagnostico visual en diferentes etapas del cultivo."
+      eyebrow="Maíz - enfermedad foliar"
+      title="Roya del maíz"
+      subtitle="Enfermedad fúngica que forma pústulas en hoja y reduce fotosíntesis, con efecto directo en llenado de grano."
+      carouselTitle="Galería de síntomas"
+      carouselDescription="Imágenes de lesiones tipo roya para facilitar el diagnóstico visual en diferentes etapas del cultivo."
       images={images}
-      imageAltPrefix="Roya del maiz"
-      infoTitle="Informacion tecnica"
+      imageAltPrefix="Roya del maíz"
+      infoTitle="Información técnica"
       summaryTitle="Resumen de riesgo"
       summaryDescription="Aspectos esenciales para identificar avance de roya y decidir medidas de manejo en campo."
       statsTitle="Indicadores de severidad"
-      benefitsTitle="Sintomas clave"
+      benefitsTitle="Síntomas clave"
       cultivationTitle="Manejo fitosanitario"
       overviewDescription="La roya se intensifica bajo humedad alta y temperaturas moderadas, especialmente en lotes con variedades susceptibles."
       overviewSections={[
@@ -29,23 +29,23 @@ const RoyaDelMaiz = () => {
           icon: FlaskConical,
           title: 'Agente causal',
           paragraphs: [
-            'Es una enfermedad fungica que se disemina por esporas transportadas por viento.',
-            'Puede reiniciar ciclos de infeccion en periodos cortos si el ambiente es favorable.',
+            'Es una enfermedad fúngica que se disemina por esporas transportadas por viento.',
+            'Puede reiniciar ciclos de infección en períodos cortos si el ambiente es favorable.',
           ],
         },
         {
           icon: Leaf,
           title: 'Efecto en rendimiento',
           paragraphs: [
-            'La colonizacion foliar reduce area fotosintetica activa y acelera senescencia.',
-            'El cultivo pierde capacidad de llenar grano cuando la infeccion progresa sin control.',
+            'La colonización foliar reduce área fotosintética activa y acelera senescencia.',
+            'El cultivo pierde capacidad de llenar grano cuando la infección progresa sin control.',
           ],
         },
         {
           icon: Eye,
           title: 'Reconocimiento en campo',
           paragraphs: [
-            'Pustulas naranja a marron sobre hojas, con liberacion de polvo esporal.',
+            'Pústulas naranja a marrón sobre hojas, con liberación de polvo esporal.',
             'La severidad aumenta desde hojas bajas hacia estratos superiores si no se interviene.',
           ],
         },
@@ -53,8 +53,8 @@ const RoyaDelMaiz = () => {
           icon: AlertTriangle,
           title: 'Condiciones favorables',
           paragraphs: [
-            'Humedad elevada, rocio prolongado y densidades altas incrementan incidencia.',
-            'Rastrojos infectados y ausencia de rotacion sostienen fuentes de inoculo.',
+            'Humedad elevada, rocío prolongado y densidades altas incrementan incidencia.',
+            'Rastrojos infectados y ausencia de rotación sostienen fuentes de inóculo.',
           ],
         },
       ]}
@@ -62,12 +62,12 @@ const RoyaDelMaiz = () => {
         {
           value: 'Foliar',
           label: 'Sitio principal',
-          note: 'La enfermedad se expresa en hojas y afecta balance fotosintetico del cultivo.',
+          note: 'La enfermedad se expresa en hojas y afecta balance fotosintético del cultivo.',
         },
         {
           value: 'Media-alta',
           label: 'Velocidad de avance',
-          note: 'Con clima favorable puede escalar rapidamente en pocos dias.',
+          note: 'Con clima favorable puede escalar rápidamente en pocos días.',
         },
         {
           value: 'Recurrente',
@@ -78,35 +78,35 @@ const RoyaDelMaiz = () => {
       benefits={[
         {
           icon: Leaf,
-          title: 'Pustulas visibles',
-          description: 'Lesiones elevadas de color naranja o marron sobre superficie foliar.',
+          title: 'Pústulas visibles',
+          description: 'Lesiones elevadas de color naranja o marrón sobre superficie foliar.',
         },
         {
           icon: Eye,
           title: 'Clorosis y necrosis',
-          description: 'Perdida progresiva de color verde con secado anticipado de hojas.',
+          description: 'Pérdida progresiva de color verde con secado anticipado de hojas.',
         },
         {
           icon: AlertTriangle,
           title: 'Menor llenado',
-          description: 'Disminucion de rendimiento por menor actividad fotosintetica en etapas clave.',
+          description: 'Disminución de rendimiento por menor actividad fotosintética en etapas clave.',
         },
       ]}
       cultivation={[
         {
           icon: ShieldCheck,
           title: 'Variedades tolerantes',
-          description: 'Priorizar materiales con mejor comportamiento frente a roya comun.',
+          description: 'Priorizar materiales con mejor comportamiento frente a roya común.',
         },
         {
           icon: Droplets,
           title: 'Manejo de humedad',
-          description: 'Evitar excesos que prolonguen mojado foliar y faciliten infeccion.',
+          description: 'Evitar excesos que prolonguen mojado foliar y faciliten infección.',
         },
         {
           icon: SprayCan,
           title: 'Fungicidas',
-          description: 'Aplicar productos registrados cuando se alcance nivel de accion en hojas clave.',
+          description: 'Aplicar productos registrados cuando se alcance nivel de acción en hojas clave.',
         },
       ]}
       theme={{

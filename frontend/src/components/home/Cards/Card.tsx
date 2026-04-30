@@ -80,7 +80,7 @@ const Card: React.FC<CardProps> = ({ image, title, description, link }) => {
               group/button
             "
           >
-            <span>Ver Detalles</span>
+            <span>Ver detalles</span>
             <svg 
               className="w-4 h-4 transition-transform duration-300 group-hover/button:translate-x-1" 
               fill="none" 

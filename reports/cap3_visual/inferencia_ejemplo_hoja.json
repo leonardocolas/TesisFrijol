@@ -1,0 +1,33 @@
+{
+  "imagen": "data\\raw\\detection\\campo\\20201030_110157.jpg",
+  "detecciones": 2,
+  "diagnostico_general": "sano",
+  "detalle_hojas": [
+    {
+      "id_hoja": 1,
+      "bounding_box_xyxy": [
+        454.3065490722656,
+        2740.817626953125,
+        1097.728759765625,
+        3591.308349609375
+      ],
+      "clase": "sano",
+      "prob_sano": 0.6471875905990601,
+      "prob_mosaico_dorado": 0.35281240940093994,
+      "confianza": 0.6471875905990601
+    },
+    {
+      "id_hoja": 2,
+      "bounding_box_xyxy": [
+        1234.78515625,
+        583.91357421875,
+        2268.0,
+        1152.87841796875
+      ],
+      "clase": "sano",
+      "prob_sano": 0.9968644380569458,
+      "prob_mosaico_dorado": 0.0031355619430541992,
+      "confianza": 0.9968644380569458
+    }
+  ]
+}

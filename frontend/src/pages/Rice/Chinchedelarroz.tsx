@@ -9,34 +9,34 @@ const images = [img1, img2, img3];
 const ChincheDelArroz = () => {
   return (
     <CropInfoPage
-      eyebrow="Arroz - plaga en panicula"
+      eyebrow="Arroz - plaga en panícula"
       title="Chinche del arroz"
-      subtitle="Plaga que afecta granos en formacion y reduce calidad comercial durante etapas de espigado y llenado."
-      carouselTitle="Galeria de sintomas"
-      carouselDescription="Referencias visuales de dano por picado en grano y presencia de chinche sobre paniculas."
+      subtitle="Plaga que afecta granos en formación y reduce calidad comercial durante etapas de espigado y llenado."
+      carouselTitle="Galería de síntomas"
+      carouselDescription="Referencias visuales de daño por picado en grano y presencia de chinche sobre panículas."
       images={images}
       imageAltPrefix="Chinche del arroz"
-      infoTitle="Informacion tecnica"
+      infoTitle="Información técnica"
       summaryTitle="Resumen de vigilancia"
-      summaryDescription="Aspectos practicos para reconocer el ataque, estimar severidad y definir acciones de control oportuno."
-      statsTitle="Indicadores de dano"
-      benefitsTitle="Sintomas observables"
+      summaryDescription="Aspectos prácticos para reconocer el ataque, estimar severidad y definir acciones de control oportuno."
+      statsTitle="Indicadores de daño"
+      benefitsTitle="Síntomas observables"
       cultivationTitle="Manejo recomendado"
-      overviewDescription="El dano economico se concentra en fase reproductiva del arroz, por lo que la vigilancia en paniculas es esencial para evitar mermas de calidad."
+      overviewDescription="El daño económico se concentra en fase reproductiva del arroz, por lo que la vigilancia en panículas es esencial para evitar mermas de calidad."
       overviewSections={[
         {
           icon: Bug,
           title: 'Comportamiento de la plaga',
           paragraphs: [
             'Ninfas y adultos se alimentan del contenido del grano durante llenado.',
-            'La movilidad entre lotes cercanos favorece focos rapidos en zonas de alta oferta alimenticia.',
+            'La movilidad entre lotes cercanos favorece focos rápidos en zonas de alta oferta alimenticia.',
           ],
         },
         {
           icon: Wheat,
           title: 'Impacto productivo',
           paragraphs: [
-            'La succion reduce peso y calidad del grano, con incremento de manchas y deformaciones.',
+            'La succión reduce peso y calidad del grano, con incremento de manchas y deformaciones.',
             'En ataques intensos disminuye valor comercial y viabilidad de semilla.',
           ],
         },
@@ -44,15 +44,15 @@ const ChincheDelArroz = () => {
           icon: Eye,
           title: 'Monitoreo de campo',
           paragraphs: [
-            'Priorizar observacion en espigado y fase lechosa, con muestreos periodicos por seccion.',
-            'Registrar presencia por panicula para detectar tendencia de crecimiento poblacional.',
+            'Priorizar observación en espigado y fase lechosa, con muestreos periódicos por sección.',
+            'Registrar presencia por panícula para detectar tendencia de crecimiento poblacional.',
           ],
         },
         {
           icon: AlertTriangle,
           title: 'Escenarios de mayor riesgo',
           paragraphs: [
-            'Malezas graminias en bordes y canales sin limpieza sostienen poblaciones activas.',
+            'Malezas gramíneas en bordes y canales sin limpieza sostienen poblaciones activas.',
             'Siembras escalonadas prolongan disponibilidad de alimento y favorecen persistencia.',
           ],
         },
@@ -60,8 +60,8 @@ const ChincheDelArroz = () => {
       stats={[
         {
           value: 'Reproductiva',
-          label: 'Fase mas sensible',
-          note: 'El mayor dano se presenta durante llenado de grano y maduracion inicial.',
+          label: 'Fase más sensible',
+          note: 'El mayor daño se presenta durante llenado de grano y maduración inicial.',
         },
         {
           value: 'Alto',
@@ -70,24 +70,24 @@ const ChincheDelArroz = () => {
         },
         {
           value: 'Puntual',
-          label: 'Sitio de accion',
-          note: 'La panicula es el principal punto de evaluacion para decisiones de control.',
+          label: 'Sitio de acción',
+          note: 'La panícula es el principal punto de evaluación para decisiones de control.',
         },
       ]}
       benefits={[
         {
           icon: Target,
           title: 'Punteado de grano',
-          description: 'Marcas por alimentacion que deterioran apariencia y valor final del arroz.',
+          description: 'Marcas por alimentación que deterioran apariencia y valor final del arroz.',
         },
         {
           icon: AlertTriangle,
           title: 'Grano vano',
-          description: 'Menor llenado por succion en etapas criticas de formacion de grano.',
+          description: 'Menor llenado por succión en etapas críticas de formación de grano.',
         },
         {
           icon: Eye,
-          title: 'Presencia en panicula',
+          title: 'Presencia en panícula',
           description: 'Adultos y ninfas visibles durante horas frescas sobre panojas expuestas.',
         },
       ]}
@@ -95,17 +95,17 @@ const ChincheDelArroz = () => {
         {
           icon: ShieldCheck,
           title: 'Saneamiento del lote',
-          description: 'Controlar malezas hospederas en bordes y canales para bajar reinfestacion.',
+          description: 'Controlar malezas hospederas en bordes y canales para bajar reinfestación.',
         },
         {
           icon: Eye,
           title: 'Monitoreo por umbral',
-          description: 'Definir frecuencia de muestreo y accion segun nivel poblacional observado.',
+          description: 'Definir frecuencia de muestreo y acción según nivel poblacional observado.',
         },
         {
           icon: SprayCan,
-          title: 'Intervencion dirigida',
-          description: 'Aplicar control cuando se alcance umbral, ajustando momento y cobertura en paniculas.',
+          title: 'Intervención dirigida',
+          description: 'Aplicar control cuando se alcance umbral, ajustando momento y cobertura en panículas.',
         },
       ]}
       theme={{

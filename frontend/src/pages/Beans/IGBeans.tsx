@@ -22,25 +22,25 @@ const IGBeans = () => {
       eyebrow="Leguminosa clave"
       title="Frijol"
       subtitle="Un cultivo esencial por su aporte proteico, su valor en la milpa y su capacidad de mejorar el suelo."
-      carouselTitle="Galeria del cultivo"
-      carouselDescription="Las imagenes del carrusel ahora cargan desde imports reales de Vite para asegurar que el componente y la pagina muestren correctamente cada fotografia del frijol."
+      carouselTitle="Galería del cultivo"
+      carouselDescription="Imágenes del cultivo de frijol en distintas etapas, útiles para reconocer su follaje, porte y estado general."
       images={beanImages}
       imageAltPrefix="Frijol sano"
-      overviewDescription="Primero se presenta el contexto general del cultivo, separado en bloques tematicos para que la lectura sea mas clara antes de pasar al resumen visual."
+      overviewDescription="Panorama general del cultivo, desde su origen y valor agronómico hasta su aporte nutricional y sus principales condiciones de manejo."
       overviewSections={[
         {
           icon: Sprout,
           title: 'Origen e identidad',
           paragraphs: [
-            'El frijol comun (Phaseolus vulgaris L.) pertenece a la familia Fabaceae y fue domesticado de forma independiente en Mesoamerica y la region andina hace miles de anos.',
-            'Junto con el maiz y la calabaza formo la base de la milpa, un sistema agricola tradicional donde cada cultivo aporta funciones complementarias.',
+            'El frijol común (Phaseolus vulgaris L.) pertenece a la familia Fabaceae y fue domesticado de forma independiente en Mesoamérica y la región andina hace miles de años.',
+            'Junto con el maíz y la calabaza formó la base de la milpa, un sistema agrícola tradicional donde cada cultivo aporta funciones complementarias.',
           ],
         },
         {
           icon: Leaf,
-          title: 'Valor agronomico',
+          title: 'Valor agronómico',
           paragraphs: [
-            'El frijol establece simbiosis con bacterias del genero Rhizobium, capaces de fijar nitrogeno atmosferico y convertirlo en una forma util para la planta.',
+            'El frijol establece simbiosis con bacterias del género Rhizobium, capaces de fijar nitrógeno atmosférico y convertirlo en una forma útil para la planta.',
             'Esa capacidad mejora la fertilidad del suelo y lo vuelve especialmente valioso en rotaciones y sistemas de agricultura regenerativa.',
           ],
           bullets: [
@@ -52,23 +52,23 @@ const IGBeans = () => {
           icon: Apple,
           title: 'Perfil nutricional',
           paragraphs: [
-            'Su contenido proteico suele ubicarse entre 18% y 25% del peso seco, por lo que es una referencia importante de proteina vegetal en la dieta.',
-            'Tambien aporta fibra, carbohidratos de liberacion lenta, hierro, magnesio, potasio y folato, una combinacion asociada con energia sostenida y buena saciedad.',
+            'Su contenido proteico suele ubicarse entre 18% y 25% del peso seco, por lo que es una referencia importante de proteína vegetal en la dieta.',
+            'También aporta fibra, carbohidratos de liberación lenta, hierro, magnesio, potasio y folato, una combinación asociada con energía sostenida y buena saciedad.',
           ],
         },
         {
           icon: ShieldCheck,
           title: 'Consumo y salud',
           paragraphs: [
-            'El consumo frecuente de legumbres se asocia con beneficios cardiovasculares, mejor control glucemico y apoyo a la microbiota intestinal gracias a la fibra fermentable y al almidon resistente.',
-            'El remojo prolongado y el cambio del agua de coccion ayudan a reducir los oligosacaridos que causan gases, mejorando la tolerancia digestiva.',
+            'El consumo frecuente de legumbres se asocia con beneficios cardiovasculares, mejor control glucémico y apoyo a la microbiota intestinal gracias a la fibra fermentable y al almidón resistente.',
+            'El remojo prolongado y el cambio del agua de cocción ayudan a reducir los oligosacáridos que causan gases, mejorando la tolerancia digestiva.',
           ],
         },
       ]}
       stats={[
         {
           value: '18-25%',
-          label: 'Proteina vegetal',
+          label: 'Proteína vegetal',
           note: 'Rango habitual del grano seco, clave para dietas basadas en plantas.',
         },
         {
@@ -77,38 +77,38 @@ const IGBeans = () => {
           note: 'Contribuye a la saciedad, la salud digestiva y el control metabolico.',
         },
         {
-          value: '16-24 C',
+          value: '16-24 °C',
           label: 'Temperatura preferida',
-          note: 'El rendimiento mejora en climas templados a calidos sin extremos termicos.',
+          note: 'El rendimiento mejora en climas templados a cálidos sin extremos térmicos.',
         },
       ]}
       benefits={[
         {
           icon: Heart,
-          title: 'Proteccion cardiovascular',
-          description: 'La fibra soluble y el potasio favorecen perfiles lipidicos mas sanos y mejor regulacion de la presion arterial.',
+          title: 'Protección cardiovascular',
+          description: 'La fibra soluble y el potasio favorecen perfiles lipídicos más sanos y mejor regulación de la presión arterial.',
         },
         {
           icon: Apple,
-          title: 'Saciedad y control glucemico',
-          description: 'Proteina, fibra y carbohidratos complejos enlentecen la absorcion de azucares y ayudan a mantener energia estable.',
+          title: 'Saciedad y control glucémico',
+          description: 'Proteína, fibra y carbohidratos complejos enlentecen la absorción de azúcares y ayudan a mantener energía estable.',
         },
         {
           icon: Leaf,
-          title: 'Proteina complementaria',
-          description: 'Combinado con arroz o maiz aporta un perfil de aminoacidos mas completo y de alto valor biologico.',
+          title: 'Proteína complementaria',
+          description: 'Combinado con arroz o maíz aporta un perfil de aminoácidos más completo y de alto valor biológico.',
         },
       ]}
       cultivation={[
         {
           icon: ThermometerSun,
           title: 'Clima',
-          description: 'Prefiere temperaturas medias y es sensible tanto a heladas como a calor excesivo durante la floracion.',
+          description: 'Prefiere temperaturas medias y es sensible tanto a heladas como a calor excesivo durante la floración.',
         },
         {
           icon: Droplets,
           title: 'Suelo',
-          description: 'Necesita suelos sueltos, bien drenados y sin encharcamientos prolongados para evitar dano radicular.',
+          description: 'Necesita suelos sueltos, bien drenados y sin encharcamientos prolongados para evitar daño radicular.',
         },
         {
           icon: Sprout,

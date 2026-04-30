@@ -14,7 +14,9 @@ export interface DiagnosticoResponse {
   detalles_por_hoja: HojaResultado[];
 }
 
-const API_URL = "http://127.0.0.1:8000/api/diagnosticar/";
+const API_BASE_URL = "http://127.0.0.1:8000/api";
+const API_URL = `${API_BASE_URL}/diagnosticar/`;
+const WARMUP_URL = `${API_BASE_URL}/diagnosticar/warmup/`;
 
 export async function enviarImagenDiagnostico(file: File): Promise<DiagnosticoResponse> {
   const formData = new FormData();
@@ -31,4 +33,11 @@ export async function enviarImagenDiagnostico(file: File): Promise<DiagnosticoRe
   }
 
   return response.json();
+}
+
+export async function precalentarDiagnostico(): Promise<void> {
+  try {
+    await fetch(WARMUP_URL, { method: "GET" });
+  } catch {
+  }
 }

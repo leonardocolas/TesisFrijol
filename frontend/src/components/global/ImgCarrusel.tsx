@@ -37,7 +37,7 @@ const ImgCarrusel: React.FC<ImgCarruselProps> = ({
   }, [currentIndex, autoPlay, autoPlayInterval]);
 
   if (images.length === 0) {
-    return <div className="text-center text-gray-500">No images to display</div>;
+    return <div className="text-center text-gray-500">No hay imágenes para mostrar.</div>;
   }
 
   return (
@@ -51,7 +51,7 @@ const ImgCarrusel: React.FC<ImgCarruselProps> = ({
           <div key={index} className="w-full flex-shrink-0">
             <img
               src={image}
-              alt={`Slide ${index + 1}`}
+              alt={`Imagen ${index + 1}`}
               className="w-full h-64 md:h-80 lg:h-96 object-cover"
             />
           </div>
@@ -62,12 +62,14 @@ const ImgCarrusel: React.FC<ImgCarruselProps> = ({
       <button
         onClick={prevSlide}
         className="absolute left-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-75 transition-opacity"
+        aria-label="Imagen anterior"
       >
         &#10094;
       </button>
       <button
         onClick={nextSlide}
         className="absolute right-4 top-1/2 transform -translate-y-1/2 bg-black bg-opacity-50 text-white p-2 rounded-full hover:bg-opacity-75 transition-opacity"
+        aria-label="Imagen siguiente"
       >
         &#10095;
       </button>
@@ -81,6 +83,7 @@ const ImgCarrusel: React.FC<ImgCarruselProps> = ({
             className={`w-3 h-3 rounded-full transition-colors ${
               index === currentIndex ? 'bg-white' : 'bg-white bg-opacity-50'
             }`}
+            aria-label={`Ir a la imagen ${index + 1}`}
           />
         ))}
       </div>

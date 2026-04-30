@@ -1,6 +1,10 @@
-import { useState } from 'react';
+import { useEffect, useState } from 'react';
 import ImageUploader from '../../components/beans/ImageUploader';
-import { enviarImagenDiagnostico, type DiagnosticoResponse } from '../../api/diagnostico';
+import {
+  enviarImagenDiagnostico,
+  precalentarDiagnostico,
+  type DiagnosticoResponse,
+} from '../../api/diagnostico';
 
 interface DiagnosticoConPromedio extends DiagnosticoResponse {
   promedioSana: number;
@@ -21,6 +25,10 @@ function BeansDeteccion() {
   const [resultado, setResultado] = useState<DiagnosticoConPromedio | null>(null);
   const [error, setError] = useState<string | null>(null);
   const [showDetails, setShowDetails] = useState<boolean>(false);
+
+  useEffect(() => {
+    void precalentarDiagnostico();
+  }, []);
 
   const handleImageChange = (file: File | null) => {
     setSelectedFile(file);
@@ -59,7 +67,7 @@ function BeansDeteccion() {
 
       const diagnostico_general =
         totalHojas === 0
-          ? 'No se detecto ninguna planta de frijol en la imagen.'
+          ? 'No se detectó ninguna planta de frijol en la imagen.'
           : promedioSana >= promedioMosaico
             ? 'Sana'
             : 'Mosaico Dorado';
@@ -71,7 +79,7 @@ function BeansDeteccion() {
         promedioMosaico,
       });
     } catch (err: any) {
-      setError(err.message || 'Ocurrio un error inesperado');
+      setError(err.message || 'Ocurrió un error inesperado');
     } finally {
       setLoading(false);
     }
@@ -82,7 +90,7 @@ function BeansDeteccion() {
   return (
     <div className="min-h-screen bg-gray-100 flex items-center justify-center p-4">
       <div className="w-full max-w-3xl bg-white p-8 rounded-xl shadow-2xl">
-        <h1 className="text-2xl font-bold mb-6">Cargue su Foto</h1>
+        <h1 className="text-2xl font-bold mb-6">Cargue su foto</h1>
 
         <ImageUploader onImageChange={handleImageChange} initialImagePreview={previewUrl} />
 
@@ -104,7 +112,7 @@ function BeansDeteccion() {
             ${loading || !selectedFile ? 'bg-gray-400 cursor-not-allowed' : 'bg-green-600 hover:bg-green-700'}`}
           disabled={!selectedFile || loading}
         >
-          {loading ? 'Analizando...' : 'Enviar para Diagnostico'}
+          {loading ? 'Analizando...' : 'Enviar para diagnóstico'}
         </button>
 
         {resultado && (
@@ -183,7 +191,7 @@ function BeansDeteccion() {
                             </span>
                           </p>
                           <p className="text-xs text-gray-500 mt-1">
-                            Prob. Sana: {(hoja.prob_sana * 100).toFixed(2)}% &nbsp;|&nbsp; Prob. Enferma:{' '}
+                            Prob. sana: {(hoja.prob_sana * 100).toFixed(2)}% &nbsp;|&nbsp; Prob. enferma:{' '}
                             {(hoja.prob_mosaico_dorado * 100).toFixed(2)}%
                           </p>
                         </div>

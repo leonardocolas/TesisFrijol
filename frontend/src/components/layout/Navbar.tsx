@@ -62,11 +62,11 @@ const Navbar = () => {
         <Link to="/" className="flex items-center gap-2 font-bold text-lg">
           <img 
             src={Logo}
-            alt="Logo" 
+            alt="Logotipo del Centro de Granos"
             className="w-10 h-10 object-contain rounded-full"
           />
           <span className="hidden sm:block text-gray-800 uppercase">
-            Centro del Grano
+            Centro de Granos
           </span>
         </Link>
 

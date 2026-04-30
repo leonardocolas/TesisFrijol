@@ -3,6 +3,9 @@ Prediccion unificada (YOLO + TFLite) para diagnostico de frijol.
 """
 
 import os
+import time
+import threading
+import logging
 from typing import Optional, Tuple
 
 import cv2
@@ -10,6 +13,7 @@ import numpy as np
 from PIL import Image
 from django.conf import settings
 
+logger = logging.getLogger(__name__)
 
 #RUTA REAL DEL PROYECTO 
 PROJECT_ROOT = os.path.dirname(settings.BASE_DIR)
@@ -29,6 +33,9 @@ _yolo_model = None
 _tflite_interpreter = None
 _tflite_input_details = None
 _tflite_output_details = None
+_models_lock = threading.Lock()
+_warmup_lock = threading.Lock()
+_warmup_done = False
 
 
 # ETIQUETAS CANONICAS Y COMPATIBILIDAD
@@ -51,7 +58,7 @@ def _import_yolo_class():
 
 
 # CARGA PEREZOSA DE MODELOS
-def _ensure_models_loaded():
+def _load_models_unlocked():
     global _yolo_model, _tflite_interpreter, _tflite_input_details, _tflite_output_details
 
     # -------- YOLO ----------
@@ -83,6 +90,51 @@ def _ensure_models_loaded():
         _tflite_interpreter.allocate_tensors()
         _tflite_input_details = _tflite_interpreter.get_input_details()
         _tflite_output_details = _tflite_interpreter.get_output_details()
+
+
+def _ensure_models_loaded():
+    with _models_lock:
+        _load_models_unlocked()
+
+
+def _run_warmup_inference():
+    """
+    Ejecuta una inferencia minima para reducir la latencia de la primera peticion real.
+    """
+    global _yolo_model
+
+    sample = np.zeros((640, 640, 3), dtype=np.uint8)
+    _yolo_model(source=sample, conf=0.40, verbose=False)
+    classify_leaf(sample)
+
+
+def preload_models_and_warmup(force: bool = False) -> dict:
+    """
+    Precarga modelos y realiza warmup una sola vez por proceso.
+    """
+    global _warmup_done
+    started = time.perf_counter()
+
+    with _warmup_lock:
+        if _warmup_done and not force:
+            elapsed_ms = int((time.perf_counter() - started) * 1000)
+            return {"loaded": True, "warmed": True, "cached": True, "elapsed_ms": elapsed_ms}
+
+        _ensure_models_loaded()
+        _run_warmup_inference()
+        _warmup_done = True
+
+    elapsed_ms = int((time.perf_counter() - started) * 1000)
+    logger.info("Warmup de modelos completado en %sms", elapsed_ms)
+    return {"loaded": True, "warmed": True, "cached": False, "elapsed_ms": elapsed_ms}
+
+
+def get_models_runtime_status() -> dict:
+    return {
+        "yolo_loaded": _yolo_model is not None,
+        "tflite_loaded": _tflite_interpreter is not None,
+        "warmup_done": _warmup_done,
+    }
 
 
 # UTILIDADES

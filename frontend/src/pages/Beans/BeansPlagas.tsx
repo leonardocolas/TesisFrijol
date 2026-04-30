@@ -19,13 +19,13 @@ const enfermedadesFrijol: EnfermedadItem[] = [
   {
     id: 2,
     nombre: 'Mosca blanca',
-    descripcion: 'Vector clave de virus y plaga que debilita el cultivo por succion de savia.',
+    descripcion: 'Vector clave de virus y plaga que debilita el cultivo por succión de savia.',
     ruta: '/beans/enfermedades/mosca-blanca',
   },
   {
     id: 3,
     nombre: 'Empoasca',
-    descripcion: 'Chicharrita del frijol que provoca amarillamiento, encarrujado y estres de planta.',
+    descripcion: 'Chicharrita del frijol que provoca amarillamiento, encarrujado y estrés de la planta.',
     ruta: '/beans/enfermedades/empoasca',
   },
 ];
@@ -43,9 +43,9 @@ const BeansPlagas = () => {
 
   return (
     <div className="mx-auto max-w-5xl px-6 py-12">
-      <h1 className="mb-3 text-3xl font-bold text-green-800">Enfermedades del Frijol</h1>
+      <h1 className="mb-3 text-3xl font-bold text-green-800">Enfermedades del frijol</h1>
       <p className="mb-8 max-w-3xl text-green-700">
-        Selecciona una enfermedad para abrir su ficha completa con carrusel de imagenes y recomendaciones de manejo.
+        Selecciona una enfermedad para abrir su ficha completa con carrusel de imágenes y recomendaciones de manejo.
       </p>
 
       <div className="relative mb-10 max-w-xl">

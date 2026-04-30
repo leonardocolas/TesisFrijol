@@ -9,50 +9,50 @@ const images = [img1, img2, img3];
 const ManchaParda = () => {
   return (
     <CropInfoPage
-      eyebrow="Arroz - enfermedad fungica"
+      eyebrow="Arroz - enfermedad fúngica"
       title="Mancha parda"
       subtitle="Enfermedad foliar y de grano asociada a condiciones de alta humedad, manejo inadecuado de rastrojo y material de siembra contaminado."
-      carouselTitle="Galeria de sintomas"
-      carouselDescription="Evidencia visual de lesiones pardas en hoja y dano asociado a reduccion de area fotosintetica."
+      carouselTitle="Galería de síntomas"
+      carouselDescription="Evidencia visual de lesiones pardas en hoja y daño asociado a reducción de área fotosintética."
       images={images}
       imageAltPrefix="Mancha parda en arroz"
-      infoTitle="Informacion tecnica"
+      infoTitle="Información técnica"
       summaryTitle="Resumen fitosanitario"
-      summaryDescription="Claves para reconocer el problema, entender su avance y orientar acciones de prevencion y control."
+      summaryDescription="Claves para reconocer el problema, entender su avance y orientar acciones de prevención y control."
       statsTitle="Indicadores de riesgo"
-      benefitsTitle="Senales de campo"
+      benefitsTitle="Señales de campo"
       cultivationTitle="Manejo integrado"
-      overviewDescription="La mancha parda avanza cuando el ambiente favorece esporulacion y permanencia de humedad en follaje, especialmente con lotes poco ventilados."
+      overviewDescription="La mancha parda avanza cuando el ambiente favorece esporulación y permanencia de humedad en follaje, especialmente con lotes poco ventilados."
       overviewSections={[
         {
           icon: FlaskConical,
           title: 'Origen del problema',
           paragraphs: [
             'Es causada por un hongo que puede persistir en residuos y semilla infectada.',
-            'La infeccion se propaga con facilidad bajo microclimas humedos en el cultivo.',
+            'La infección se propaga con facilidad bajo microclimas húmedos en el cultivo.',
           ],
         },
         {
           icon: Leaf,
-          title: 'Dano fisiologico',
+          title: 'Daño fisiológico',
           paragraphs: [
-            'Las lesiones pardas reducen area foliar funcional y eficiencia fotosintetica.',
+            'Las lesiones pardas reducen área foliar funcional y eficiencia fotosintética.',
             'En ataques severos compromete llenado de grano y calidad comercial.',
           ],
         },
         {
           icon: Eye,
-          title: 'Diagnostico en campo',
+          title: 'Diagnóstico en campo',
           paragraphs: [
-            'Observar forma, color y distribucion de manchas en hojas de diferentes estratos.',
-            'Confirmar si existe avance hacia paniculas o grano en etapas finales.',
+            'Observar forma, color y distribución de manchas en hojas de diferentes estratos.',
+            'Confirmar si existe avance hacia panículas o grano en etapas finales.',
           ],
         },
         {
           icon: AlertTriangle,
           title: 'Factores predisponentes',
           paragraphs: [
-            'Alta humedad relativa, rastrojo infectado y excesos de nitrogeno incrementan incidencia.',
+            'Alta humedad relativa, rastrojo infectado y excesos de nitrógeno incrementan incidencia.',
             'Densidades altas elevan el tiempo de mojado foliar y aceleran desarrollo del hongo.',
           ],
         },
@@ -65,13 +65,13 @@ const ManchaParda = () => {
         },
         {
           value: 'Foliar y grano',
-          label: 'Sitio de dano',
-          note: 'Afecta productividad y tambien calidad final del arroz cosechado.',
+          label: 'Sitio de daño',
+          note: 'Afecta productividad y también calidad final del arroz cosechado.',
         },
         {
           value: 'Escalable',
           label: 'Comportamiento',
-          note: 'Sin manejo temprano, la severidad crece rapidamente en ambientes favorables.',
+          note: 'Sin manejo temprano, la severidad crece rápidamente en ambientes favorables.',
         },
       ]}
       benefits={[
@@ -83,12 +83,12 @@ const ManchaParda = () => {
         {
           icon: Eye,
           title: 'Secado prematuro',
-          description: 'Hojas con perdida de area verde activa y envejecimiento acelerado.',
+          description: 'Hojas con pérdida de área verde activa y envejecimiento acelerado.',
         },
         {
           icon: AlertTriangle,
-          title: 'Perdida de calidad',
-          description: 'Aumento de grano manchado y menor peso especifico en cosecha.',
+          title: 'Pérdida de calidad',
+          description: 'Aumento de grano manchado y menor peso específico en cosecha.',
         },
       ]}
       cultivation={[
@@ -100,7 +100,7 @@ const ManchaParda = () => {
         {
           icon: Droplets,
           title: 'Manejo de ambiente',
-          description: 'Optimizar ventilacion del cultivo y evitar condiciones de humedad excesiva sostenida.',
+          description: 'Optimizar ventilación del cultivo y evitar condiciones de humedad excesiva sostenida.',
         },
         {
           icon: SprayCan,

@@ -10,34 +10,34 @@ const images = [img1, img2, img3, img4];
 const GusanoCogollero = () => {
   return (
     <CropInfoPage
-      eyebrow="Maiz - plaga principal"
+      eyebrow="Maíz - plaga principal"
       title="Gusano cogollero"
-      subtitle="Plaga de alta agresividad en maiz temprano, con dano foliar y afectacion del punto de crecimiento."
-      carouselTitle="Galeria de sintomas"
-      carouselDescription="Imagenes de perforaciones, excretas y dano en cogollo para mejorar el reconocimiento en campo."
+      subtitle="Plaga de alta agresividad en maíz temprano, con daño foliar y afectación del punto de crecimiento."
+      carouselTitle="Galería de síntomas"
+      carouselDescription="Imágenes de perforaciones, excretas y daño en cogollo para mejorar el reconocimiento en campo."
       images={images}
-      imageAltPrefix="Gusano cogollero en maiz"
-      infoTitle="Informacion tecnica"
+      imageAltPrefix="Gusano cogollero en maíz"
+      infoTitle="Información técnica"
       summaryTitle="Resumen de alerta temprana"
       summaryDescription="Elementos clave para identificar el ataque, medir avance y aplicar manejo integrado oportuno."
-      statsTitle="Indicadores de dano"
-      benefitsTitle="Sintomas frecuentes"
+      statsTitle="Indicadores de daño"
+      benefitsTitle="Síntomas frecuentes"
       cultivationTitle="Control recomendado"
-      overviewDescription="El dano severo aparece cuando las larvas se establecen en el cogollo y consumen tejido joven antes de ser detectadas."
+      overviewDescription="El daño severo aparece cuando las larvas se establecen en el cogollo y consumen tejido joven antes de ser detectadas."
       overviewSections={[
         {
           icon: Bug,
           title: 'Biologia de ataque',
           paragraphs: [
-            'Las larvas recien emergidas raspan hojas y luego migran al cogollo.',
-            'Su desarrollo rapido permite que el dano aumente en pocos dias.',
+            'Las larvas recién emergidas raspan hojas y luego migran al cogollo.',
+            'Su desarrollo rápido permite que el daño aumente en pocos días.',
           ],
         },
         {
           icon: Leaf,
           title: 'Impacto en el cultivo',
           paragraphs: [
-            'Perforaciones y desgarres reducen area fotosintetica y vigor inicial.',
+            'Perforaciones y desgarres reducen área fotosintética y vigor inicial.',
             'Si el cogollo se compromete, puede afectar desarrollo de mazorca.',
           ],
         },
@@ -51,10 +51,10 @@ const GusanoCogollero = () => {
         },
         {
           icon: AlertTriangle,
-          title: 'Riesgo de escalation',
+          title: 'Riesgo de agravamiento',
           paragraphs: [
-            'Temperaturas calidas y ausencia de vigilancia aceleran la infestacion.',
-            'Lotes vecinos con gramineas hospederas pueden sostener reinfestaciones.',
+            'Temperaturas cálidas y ausencia de vigilancia aceleran la infestación.',
+            'Lotes vecinos con gramíneas hospederas pueden sostener reinfestaciones.',
           ],
         },
       ]}
@@ -62,50 +62,50 @@ const GusanoCogollero = () => {
         {
           value: 'Temprana',
           label: 'Ventana critica',
-          note: 'Las primeras etapas del maiz son las mas sensibles al dano del cogollero.',
+          note: 'Las primeras etapas del maíz son las más sensibles al daño del cogollero.',
         },
         {
           value: 'Alta',
-          label: 'Velocidad de dano',
-          note: 'Sin control inicial la severidad aumenta rapidamente por larvas establecidas.',
+          label: 'Velocidad de daño',
+          note: 'Sin control inicial la severidad aumenta rápidamente por larvas establecidas.',
         },
         {
           value: 'Cogollo',
           label: 'Zona objetivo',
-          note: 'El punto de crecimiento concentra la mayor perdida potencial.',
+          note: 'El punto de crecimiento concentra la mayor pérdida potencial.',
         },
       ]}
       benefits={[
         {
           icon: Target,
           title: 'Perforaciones en hoja',
-          description: 'Danos tipo ventana y recortes irregulares en follaje joven.',
+          description: 'Daños tipo ventana y recortes irregulares en follaje joven.',
         },
         {
           icon: AlertTriangle,
           title: 'Excretas en cogollo',
-          description: 'Acumulacion de residuos oscuros, indicador comun de larvas activas.',
+          description: 'Acumulación de residuos oscuros, indicador común de larvas activas.',
         },
         {
           icon: Eye,
           title: 'Deterioro de brote',
-          description: 'Plantas con crecimiento frenado por dano persistente en tejido nuevo.',
+          description: 'Plantas con crecimiento frenado por daño persistente en tejido nuevo.',
         },
       ]}
       cultivation={[
         {
           icon: Eye,
-          title: 'Inspeccion semanal',
+          title: 'Inspección semanal',
           description: 'Monitorear por lotes y registrar incremento de plantas afectadas.',
         },
         {
           icon: ShieldCheck,
           title: 'Manejo integrado',
-          description: 'Combinar control biologico, practicas culturales y manejo de hospederos alternos.',
+          description: 'Combinar control biológico, prácticas culturales y manejo de hospederos alternos.',
         },
         {
           icon: SprayCan,
-          title: 'Aplicacion focalizada',
+          title: 'Aplicación focalizada',
           description: 'Intervenir en momento temprano con buena cobertura en zona de cogollo.',
         },
       ]}

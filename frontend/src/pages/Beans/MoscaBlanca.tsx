@@ -13,73 +13,73 @@ const MoscaBlanca = () => {
       eyebrow="Frijol - plaga clave"
       title="Mosca blanca"
       subtitle="La presencia de mosca blanca en frijol debilita la planta y aumenta el riesgo de virosis asociadas."
-      carouselTitle="Galeria de sintomas"
-      carouselDescription="Secuencia visual de dano por mosca blanca en hojas de frijol para apoyar la identificacion en campo."
+      carouselTitle="Galería de síntomas"
+      carouselDescription="Secuencia visual de daño por mosca blanca en hojas de frijol para apoyar la identificación en campo."
       images={images}
       imageAltPrefix="Mosca blanca en frijol"
-      infoTitle="Informacion tecnica"
+      infoTitle="Información técnica"
       summaryTitle="Resumen de monitoreo"
-      summaryDescription="Puntos rapidos para estimar riesgo, reconocer sintomas y priorizar acciones de manejo integrado."
+      summaryDescription="Puntos rápidos para estimar riesgo, reconocer síntomas y priorizar acciones de manejo integrado."
       statsTitle="Indicadores de impacto"
-      benefitsTitle="Sintomas frecuentes"
-      cultivationTitle="Control y prevencion"
-      overviewDescription="La mosca blanca se concentra en el enves de la hoja, succiona savia y puede transmitir virus con alta eficiencia cuando no hay control temprano."
+      benefitsTitle="Síntomas frecuentes"
+      cultivationTitle="Control y prevención"
+      overviewDescription="La mosca blanca se concentra en el envés de la hoja, succiona savia y puede transmitir virus con alta eficiencia cuando no hay control temprano."
       overviewSections={[
         {
           icon: Bug,
-          title: 'Identificacion',
+          title: 'Identificación',
           paragraphs: [
-            'Adultos pequenos y de color blanco, visibles al sacudir el follaje.',
-            'Ninfas planas adheridas en el enves, distribuidas sobre hojas tiernas.',
+            'Adultos pequeños y de color blanco, visibles al sacudir el follaje.',
+            'Ninfas planas adheridas en el envés, distribuidas sobre hojas tiernas.',
           ],
         },
         {
           icon: Leaf,
-          title: 'Dano directo',
+          title: 'Daño directo',
           paragraphs: [
-            'La alimentacion continua reduce vigor, crecimiento vegetativo y formacion de vainas.',
-            'La excrecion de melaza favorece fumagina y reduce fotosintesis util.',
+            'La alimentación continua reduce vigor, crecimiento vegetativo y formación de vainas.',
+            'La excreción de melaza favorece fumagina y reduce fotosíntesis útil.',
           ],
         },
         {
           icon: AlertTriangle,
-          title: 'Riesgo epidemiologico',
+          title: 'Riesgo epidemiológico',
           paragraphs: [
-            'Actua como vector de virosis, por lo que una infestacion temprana puede multiplicar la perdida de rendimiento.',
-            'Lotes cercanos con hospederos alternos elevan la presion de reinfestacion.',
+            'Actúa como vector de virosis, por lo que una infestación temprana puede multiplicar la pérdida de rendimiento.',
+            'Lotes cercanos con hospederos alternos elevan la presión de reinfestación.',
           ],
         },
         {
           icon: Eye,
           title: 'Monitoreo',
           paragraphs: [
-            'Evaluar semanalmente el enves de hojas en plantas representativas.',
-            'Priorizar seguimiento durante establecimiento y prefloracion.',
+            'Evaluar semanalmente el envés de hojas en plantas representativas.',
+            'Priorizar seguimiento durante establecimiento y prefloración.',
           ],
         },
       ]}
       stats={[
         {
           value: 'Alta',
-          label: 'Capacidad de dispersion',
+          label: 'Capacidad de dispersión',
           note: 'Los adultos migran con facilidad entre parcelas y hospederos cercanos.',
         },
         {
           value: 'Temprano',
-          label: 'Momento critico',
-          note: 'El dano inicial suele tener mayor efecto en la productividad final.',
+          label: 'Momento crítico',
+          note: 'El daño inicial suele tener mayor efecto en la productividad final.',
         },
         {
           value: 'Vector',
           label: 'Riesgo sanitario',
-          note: 'Incrementa probabilidad de virosis cuando coexisten fuentes de inoculo.',
+          note: 'Incrementa probabilidad de virosis cuando coexisten fuentes de inóculo.',
         },
       ]}
       benefits={[
         {
           icon: Leaf,
           title: 'Clorosis foliar',
-          description: 'Hojas con amarillamiento progresivo y menor actividad fotosintetica.',
+          description: 'Hojas con amarillamiento progresivo y menor actividad fotosintética.',
         },
         {
           icon: AlertTriangle,
@@ -101,12 +101,12 @@ const MoscaBlanca = () => {
         {
           icon: SprayCan,
           title: 'Control integrado',
-          description: 'Combinar manejo cultural, control biologico y productos selectivos rotando modos de accion.',
+          description: 'Combinar manejo cultural, control biológico y productos selectivos rotando modos de acción.',
         },
         {
           icon: ShieldCheck,
-          title: 'Prevencion',
-          description: 'Eliminar hospederos alternos y coordinar fechas de siembra para reducir presion del vector.',
+          title: 'Prevención',
+          description: 'Eliminar hospederos alternos y coordinar fechas de siembra para reducir presión del vector.',
         },
       ]}
       theme={{
