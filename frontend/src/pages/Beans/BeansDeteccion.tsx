@@ -54,29 +54,36 @@ function BeansDeteccion() {
       const data = await enviarImagenDiagnostico(selectedFile);
 
       const totalHojas = data.detalles_por_hoja.length;
-      let sumaSana = 0;
-      let sumaMosaico = 0;
+      
+      // Contar hojas por clasificacion
+      let hojasS = 0;
+      let hojasMosaico = 0;
 
       data.detalles_por_hoja.forEach((hoja) => {
-        sumaSana += hoja.prob_sana;
-        sumaMosaico += hoja.prob_mosaico_dorado;
+        const claseNormalizada = hoja.clase?.toLowerCase() || '';
+        if (claseNormalizada === 'sana' || claseNormalizada === 'sano') {
+          hojasS++;
+        } else if (claseNormalizada === 'mosaico_dorado' || claseNormalizada === 'mosaico') {
+          hojasMosaico++;
+        }
       });
 
-      const promedioSana = totalHojas ? sumaSana / totalHojas : 0;
-      const promedioMosaico = totalHojas ? sumaMosaico / totalHojas : 0;
+      // Calcular porcentaje basado en conteo de hojas
+      const porcentajeSana = totalHojas ? (hojasS / totalHojas) : 0;
+      const porcentajeMosaico = totalHojas ? (hojasMosaico / totalHojas) : 0;
 
       const diagnostico_general =
         totalHojas === 0
           ? 'No se detectó ninguna planta de frijol en la imagen.'
-          : promedioSana >= promedioMosaico
+          : hojasS >= hojasMosaico
             ? 'Sana'
             : 'Mosaico Dorado';
 
       setResultado({
         ...data,
         diagnostico_general,
-        promedioSana,
-        promedioMosaico,
+        promedioSana: porcentajeSana,
+        promedioMosaico: porcentajeMosaico,
       });
     } catch (err: any) {
       setError(err.message || 'Ocurrió un error inesperado');

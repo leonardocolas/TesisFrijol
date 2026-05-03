@@ -228,7 +228,14 @@ def classify_leaf(img):
 
     output = _tflite_interpreter.get_tensor(_tflite_output_details[0]["index"])[0]
     prob_mosaico, prob_sano = _normalize_binary_output(output)
-    class_canonical = CLASS_SANO if prob_sano >= prob_mosaico else CLASS_MOSAICO
+    
+    # Logica de clasificacion con umbral: si mosaico > 25%, se considera mosaico independientemente
+    if prob_mosaico > 0.25:
+        class_canonical = CLASS_MOSAICO
+    elif prob_sano >= prob_mosaico:
+        class_canonical = CLASS_SANO
+    else:
+        class_canonical = CLASS_MOSAICO
 
     return {
         "prob_sana": prob_sano,
@@ -273,10 +280,11 @@ def procesar_imagen_diagnostico(path_imagen):
         diagnostico_general = "No se detectaron hojas"
         diagnostico_general_canonico = None
     else:
-        diagnostico_general_canonico = max(
-            [CLASS_SANO, CLASS_MOSAICO],
-            key=clases_canonicas.count,
-        )
+        # Contar hojas por clasificacion y determinar diagnostico basado en el conteo
+        count_sano = clases_canonicas.count(CLASS_SANO)
+        count_mosaico = clases_canonicas.count(CLASS_MOSAICO)
+        
+        diagnostico_general_canonico = CLASS_SANO if count_sano >= count_mosaico else CLASS_MOSAICO
         diagnostico_general = _legacy_label(diagnostico_general_canonico)
 
     return {
