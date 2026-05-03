@@ -37,10 +37,6 @@ const Footer: React.FC = () => {
             </h4>
             <ul className="space-y-3 text-sm">
               <li><Link to="/" className={linkHoverClasses}>Inicio</Link></li>
-              <li><Link to="/investigaciones" className={linkHoverClasses}>Investigaciones</Link></li>
-              <li><Link to="/publicaciones" className={linkHoverClasses}>Publicaciones</Link></li>
-              <li><Link to="/eventos" className={linkHoverClasses}>Eventos</Link></li>
-              <li><Link to="/contacto" className={linkHoverClasses}>Contacto</Link></li>
             </ul>
           </div>
 
