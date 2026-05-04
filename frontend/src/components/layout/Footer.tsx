@@ -97,13 +97,7 @@ const Footer: React.FC = () => {
               </a>
             </div>
 
-            <h4 className="font-bold text-white uppercase tracking-wider mb-4 border-b border-gray-700 pb-2">
-              Legal
-            </h4>
-            <ul className="space-y-3 text-sm">
-              <li><Link to="/privacidad" className={linkHoverClasses}>Política de Privacidad</Link></li>
-              <li><Link to="/terminos" className={linkHoverClasses}>Términos de Servicio</Link></li>
-            </ul>
+            
           </div>
         </div>
 
