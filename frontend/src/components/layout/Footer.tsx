@@ -22,7 +22,7 @@ const Footer: React.FC = () => {
                 alt="Centro de Granos Nacional Logo"
                 className="w-10 h-10 object-contain rounded-full shadow-lg"
               />
-              Centro de Granos
+              Instituto de Investigaciones de Granos
             </Link>
             <p className="text-sm text-gray-400 max-w-xs">
               Institución del Instituto de Investigaciones de Granos dedicada a la

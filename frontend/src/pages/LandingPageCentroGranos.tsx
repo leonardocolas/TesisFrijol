@@ -33,7 +33,7 @@ export default function LandingPageCentroGranos() {
       transition={{ duration: 0.6 }}
       className="text-4xl font-bold md:text-6xl"
     >
-      Centro de Granos Nacional
+      Instituto de Investigaciones de Granos
     </motion.h1>
 
     <motion.p

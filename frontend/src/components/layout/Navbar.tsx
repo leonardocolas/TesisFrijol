@@ -66,7 +66,7 @@ const Navbar = () => {
             className="w-10 h-10 object-contain rounded-full"
           />
           <span className="hidden sm:block text-gray-800 uppercase">
-            Centro de Granos
+            Instituto de Investigaciones de Granos
           </span>
         </Link>
 
